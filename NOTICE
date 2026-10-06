@@ -1,0 +1,29 @@
+itu-zones-mcp
+Copyright (C) Greg Beam, KI7MT, and contributors.
+Licensed under the GNU General Public License v3.0 or later (see LICENSE).
+
+Third-party material: the IARU's ITU-zone definitions
+-----------------------------------------------------
+
+The file(s) src/itu_zones_mcp/data/published/IARURegion1HFManagerHandbook8.2.1.pdf
+is the IARU Region 1 HF Managers Handbook, version 8.2
+(https://www.iaru-r1.org/wp-content/uploads/2019/12/IARURegion1HFManagerHandbook8.2.1.pdf), by
+IARU Region 1. Its chapter 9.8, "Definition of ITU-Zones when used by radio amateurs" (pages dated
+November 2000), defines the ITU zones for amateur use under IARU Region 1 recommendation
+REC/99/LH/C4.2; it was drafted by G3HTA from the ITU's CIRAF zones and approved by all three IARU
+regions. The handbook is shipped unmodified; data/SOURCE.json records its SHA-256 and a test checks
+the file against it.
+
+data/facts/itu_zones.json holds facts from chapter 9.8 (zone numbers and the prefixes and areas
+each covers, in the chapter's own words), each citing its page and zone. They are the IARU's.
+
+This project's GPL-3.0-or-later licence covers our own code and files. It does not cover the
+owner's published file(s) or the facts from them, and we claim no rights in them.
+
+Ours: everything else in data/, which is our arrangement of the owner's facts and is labelled as
+ours: data/SOURCE.json, data/owner-list.schema.json, data/derived/ (built from the facts) and
+data/load.sql (generated).
+
+Test material: tests/crosscheck/cty.dat is AD1C's country file (https://www.country-files.com/),
+MIT licence, with its notice in tests/crosscheck/AD1C-LICENSE.txt. It is used only as a cross-check
+in the tests and is not part of the published package.
