@@ -1,0 +1,3699 @@
+{
+  "list": "itu_zones",
+  "owner": "IARU (International Amateur Radio Union), from the ITU's CIRAF zones",
+  "document": "IARURegion1HFManagerHandbook8.2.1.pdf",
+  "edition": "HF Managers Handbook v8.2, chapter 9.8 (2000-11)",
+  "records": [
+    {
+      "code": "1",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 6,
+          "pas": null,
+          "prefix": "KL",
+          "boundary": "west of 141W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 1"
+    },
+    {
+      "code": "2",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 6,
+          "pas": null,
+          "prefix": "KL",
+          "boundary": "east of 141W"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE6",
+          "boundary": "south of 80N and west of 110W"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE7",
+          "boundary": "south of 80N and west of 110W"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE8",
+          "boundary": "south of 80N and west of 110W"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VY1",
+          "boundary": "south of 80N and west of 110W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 2",
+      "transcription_note": "The parenthesis '(south of 80N and west of 110W)' follows VY1 only; read as qualifying VE6, VE7, VE8 and VY1 (VE8 is also listed in zones 3, 4, 9 and 75, so it cannot be unqualified here)."
+    },
+    {
+      "code": "3",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE3/4/5/8",
+          "boundary": "south of 80N and between 90 & 110W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 3"
+    },
+    {
+      "code": "4",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE2/3/4/8",
+          "boundary": "south of 80N and between 70 and 90W including all Baffin Island"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 4"
+    },
+    {
+      "code": "5",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 237,
+          "pas": null,
+          "prefix": "OX",
+          "boundary": "south of 80N"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 5"
+    },
+    {
+      "code": "6",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 291,
+          "pas": "CA",
+          "prefix": "W6",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "ID",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NV",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "OR",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "WA",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "AZ",
+          "prefix": "W7",
+          "boundary": "west of 110W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MT",
+          "prefix": "W7",
+          "boundary": "west of 110W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "UT",
+          "prefix": "W7",
+          "boundary": "west of 110W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6",
+      "transcription_note": "'W7 (AZ, MT, UT, west of 110W)': the boundary is read as applying to each of AZ, MT and UT."
+    },
+    {
+      "code": "7",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 291,
+          "pas": "TN",
+          "prefix": "W4",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "NM",
+          "prefix": "W5",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "OK",
+          "prefix": "W5",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "TX",
+          "prefix": "W5",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "AR",
+          "prefix": "W5",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "LA",
+          "prefix": "W5",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MS",
+          "prefix": "W5",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "WY",
+          "prefix": "W7",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "AZ",
+          "prefix": "W7",
+          "boundary": "east of 110W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MT",
+          "prefix": "W7",
+          "boundary": "east of 110W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "UT",
+          "prefix": "W7",
+          "boundary": "east of 110W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MI",
+          "prefix": "W8",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "IL",
+          "prefix": "W9",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "WI",
+          "prefix": "W9",
+          "boundary": "west of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "CO",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "IA",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "KS",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "MN",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NE",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "ND",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "SD",
+          "prefix": "W0",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "MO",
+          "prefix": "Wà",
+          "boundary": "west of 90W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7",
+      "transcription_note": "'Wà (MO west of 90W)' kept as published; 'Wà' is an evident encoding slip for W0 (W-zero; the same entry reads 'W0' for the other W0 states and for MO in zone 8). Boundaries in 'W5 (AR, LA, MS west of 90W)', 'W7 (AZ, MT, UT east of 110W)' and 'W9 (IL, WI west of 90W)' read as applying to each state in the parenthesis."
+    },
+    {
+      "code": "8",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 291,
+          "pas": "CT",
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "ME",
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "MA",
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NH",
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "RI",
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "VT",
+          "prefix": "W1",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NJ",
+          "prefix": "W2",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NY",
+          "prefix": "W2",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "DE",
+          "prefix": "W3",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "MD",
+          "prefix": "W3",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "PA",
+          "prefix": "W3",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "AL",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "FL",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "GA",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "KY",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "NC",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "SC",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "VA",
+          "prefix": "W4",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "TN",
+          "prefix": "W4",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "AR",
+          "prefix": "W5",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "LA",
+          "prefix": "W5",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MS",
+          "prefix": "W5",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "OH",
+          "prefix": "W8",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "WV",
+          "prefix": "W8",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "MI",
+          "prefix": "W8",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "IN",
+          "prefix": "W9",
+          "boundary": null
+        },
+        {
+          "dxcc": 291,
+          "pas": "IL",
+          "prefix": "W9",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "WI",
+          "prefix": "W9",
+          "boundary": "east of 90W"
+        },
+        {
+          "dxcc": 291,
+          "pas": "MO",
+          "prefix": "W0",
+          "boundary": "east of 90W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8",
+      "transcription_note": "'W5 (AR LA, MS east of 90W)' is published without a comma between AR and LA; read as AR, LA, MS, the boundary applying to each. A stray space precedes the comma after it ('east of 90W) ,'). DC is not named in this edition."
+    },
+    {
+      "code": "9",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE1",
+          "boundary": "south of 80N and east of 70W but excluding Baffin Island"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE2",
+          "boundary": "south of 80N and east of 70W but excluding Baffin Island"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE8",
+          "boundary": "south of 80N and east of 70W but excluding Baffin Island"
+        },
+        {
+          "dxcc": 252,
+          "pas": null,
+          "prefix": "CY9",
+          "boundary": null
+        },
+        {
+          "dxcc": 211,
+          "pas": null,
+          "prefix": "CY0",
+          "boundary": null
+        },
+        {
+          "dxcc": 277,
+          "pas": null,
+          "prefix": "FP",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VO1",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VO2",
+          "boundary": null
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VY2",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9",
+      "transcription_note": "The parenthesis '(south of 80N and east of 70W but excluding Baffin Island)' follows VE8 only; read as qualifying VE1, VE2 and VE8 (VE2 is also in zone 4, VE8 in zones 2, 3, 4 and 75)."
+    },
+    {
+      "code": "10",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 36,
+          "pas": null,
+          "prefix": "FO8",
+          "boundary": null
+        },
+        {
+          "dxcc": 50,
+          "pas": null,
+          "prefix": "XE",
+          "boundary": null
+        },
+        {
+          "dxcc": 204,
+          "pas": null,
+          "prefix": "XF4",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 10",
+      "transcription_note": "'FO8 (Clipperton)': the parenthesis names the entity (Clipperton I.)."
+    },
+    {
+      "code": "11",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 60,
+          "pas": null,
+          "prefix": "C6",
+          "boundary": null
+        },
+        {
+          "dxcc": 70,
+          "pas": null,
+          "prefix": "CO",
+          "boundary": null
+        },
+        {
+          "dxcc": 79,
+          "pas": null,
+          "prefix": "FG",
+          "boundary": null
+        },
+        {
+          "dxcc": 84,
+          "pas": null,
+          "prefix": "FM",
+          "boundary": null
+        },
+        {
+          "dxcc": 213,
+          "pas": null,
+          "prefix": "FJ/FS",
+          "boundary": null
+        },
+        {
+          "dxcc": 78,
+          "pas": null,
+          "prefix": "HH",
+          "boundary": null
+        },
+        {
+          "dxcc": 72,
+          "pas": null,
+          "prefix": "HI",
+          "boundary": null
+        },
+        {
+          "dxcc": 216,
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null
+        },
+        {
+          "dxcc": 88,
+          "pas": null,
+          "prefix": "HP",
+          "boundary": null
+        },
+        {
+          "dxcc": 80,
+          "pas": null,
+          "prefix": "HR",
+          "boundary": null
+        },
+        {
+          "dxcc": 77,
+          "pas": null,
+          "prefix": "J3",
+          "boundary": null
+        },
+        {
+          "dxcc": 97,
+          "pas": null,
+          "prefix": "J6",
+          "boundary": null
+        },
+        {
+          "dxcc": 95,
+          "pas": null,
+          "prefix": "J7",
+          "boundary": null
+        },
+        {
+          "dxcc": 98,
+          "pas": null,
+          "prefix": "J8",
+          "boundary": null
+        },
+        {
+          "dxcc": 105,
+          "pas": null,
+          "prefix": "KG4",
+          "boundary": null
+        },
+        {
+          "dxcc": 182,
+          "pas": null,
+          "prefix": "KP1",
+          "boundary": null
+        },
+        {
+          "dxcc": 285,
+          "pas": null,
+          "prefix": "KP2",
+          "boundary": null
+        },
+        {
+          "dxcc": 202,
+          "pas": null,
+          "prefix": "KP3/4",
+          "boundary": null
+        },
+        {
+          "dxcc": 43,
+          "pas": null,
+          "prefix": "KP5",
+          "boundary": null
+        },
+        {
+          "dxcc": 91,
+          "pas": null,
+          "prefix": "P4",
+          "boundary": null
+        },
+        {
+          "dxcc": 85,
+          "pas": null,
+          "prefix": "PJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 255,
+          "pas": null,
+          "prefix": "PJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 76,
+          "pas": null,
+          "prefix": "TG",
+          "boundary": null
+        },
+        {
+          "dxcc": 308,
+          "pas": null,
+          "prefix": "TI",
+          "boundary": null
+        },
+        {
+          "dxcc": 94,
+          "pas": null,
+          "prefix": "V2",
+          "boundary": null
+        },
+        {
+          "dxcc": 66,
+          "pas": null,
+          "prefix": "V3",
+          "boundary": null
+        },
+        {
+          "dxcc": 249,
+          "pas": null,
+          "prefix": "V4",
+          "boundary": null
+        },
+        {
+          "dxcc": 12,
+          "pas": null,
+          "prefix": "VP2",
+          "boundary": null
+        },
+        {
+          "dxcc": 65,
+          "pas": null,
+          "prefix": "VP2",
+          "boundary": null
+        },
+        {
+          "dxcc": 96,
+          "pas": null,
+          "prefix": "VP2",
+          "boundary": null
+        },
+        {
+          "dxcc": 89,
+          "pas": null,
+          "prefix": "VP5",
+          "boundary": null
+        },
+        {
+          "dxcc": 64,
+          "pas": null,
+          "prefix": "VP9",
+          "boundary": null
+        },
+        {
+          "dxcc": 86,
+          "pas": null,
+          "prefix": "YN",
+          "boundary": null
+        },
+        {
+          "dxcc": 74,
+          "pas": null,
+          "prefix": "YS",
+          "boundary": null
+        },
+        {
+          "dxcc": 17,
+          "pas": null,
+          "prefix": "YV0",
+          "boundary": null
+        },
+        {
+          "dxcc": 69,
+          "pas": null,
+          "prefix": "ZF",
+          "boundary": null
+        },
+        {
+          "dxcc": 82,
+          "pas": null,
+          "prefix": "6Y",
+          "boundary": null
+        },
+        {
+          "dxcc": 62,
+          "pas": null,
+          "prefix": "8P",
+          "boundary": null
+        },
+        {
+          "dxcc": 90,
+          "pas": null,
+          "prefix": "9Y",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11",
+      "transcription_note": "'FJ/FS' mapped to 213 Saint Martin (the entity of this era; FJ became separate entity 516 Saint Barthelemy only from 2007-12-14). 'PJ (Netherlands Antilles)' mapped to 85 Bonaire, Curacao (deleted 2010-10-09; now 517 Curacao, 520 Bonaire). 'PJ (Sint Maarten)' mapped to 255 St. Maarten, Saba, St. Eustatius (deleted 2010-10-09; now 518 Sint Maarten, 519 Saba & St. Eustatius). 'VP2 (Br. Virgin Is.) VP2 (Montserrat)' is published without a separating comma; 'YV0,ZF' without a space. Parentheses naming entities (San Andres, Anguilla, Br. Virgin Is., Montserrat) are mapped to the entity, not a boundary."
+    },
+    {
+      "code": "12",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 104,
+          "pas": null,
+          "prefix": "CP",
+          "boundary": "north of 16,5S"
+        },
+        {
+          "dxcc": 63,
+          "pas": null,
+          "prefix": "FY",
+          "boundary": null
+        },
+        {
+          "dxcc": 120,
+          "pas": null,
+          "prefix": "HC",
+          "boundary": null
+        },
+        {
+          "dxcc": 71,
+          "pas": null,
+          "prefix": "HC8",
+          "boundary": null
+        },
+        {
+          "dxcc": 116,
+          "pas": null,
+          "prefix": "HK",
+          "boundary": null
+        },
+        {
+          "dxcc": 161,
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null
+        },
+        {
+          "dxcc": 136,
+          "pas": null,
+          "prefix": "OA",
+          "boundary": null
+        },
+        {
+          "dxcc": 108,
+          "pas": null,
+          "prefix": "PY",
+          "boundary": "west of 60W"
+        },
+        {
+          "dxcc": 140,
+          "pas": null,
+          "prefix": "PZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 37,
+          "pas": null,
+          "prefix": "TI9",
+          "boundary": null
+        },
+        {
+          "dxcc": 148,
+          "pas": null,
+          "prefix": "YV",
+          "boundary": null
+        },
+        {
+          "dxcc": 129,
+          "pas": null,
+          "prefix": "8R",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12",
+      "transcription_note": "'PY (west of 60W) PZ' is published without a separating comma. '16,5S' uses a decimal comma (16.5 S), kept as published. 'HK0 (Malpelo)' mapped to 161 Malpelo I."
+    },
+    {
+      "code": "13",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 104,
+          "pas": null,
+          "prefix": "CP",
+          "boundary": "east of 60W"
+        },
+        {
+          "dxcc": 108,
+          "pas": null,
+          "prefix": "PY",
+          "boundary": "north of 16,5S & east of 60W"
+        },
+        {
+          "dxcc": 56,
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null
+        },
+        {
+          "dxcc": 253,
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 13",
+      "transcription_note": "Zone 12 gives 'CP (north of 16,5S)' and zone 14 'CP (south of 16,5S)', while this zone gives 'CP (east of 60W)'; the three CP boundaries overlap as published. Kept as published. PY0 parentheses (Fernando de Noronha, St Peter & Paul) name entities."
+    },
+    {
+      "code": "14",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 112,
+          "pas": null,
+          "prefix": "CE",
+          "boundary": "north of 40S"
+        },
+        {
+          "dxcc": 125,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null
+        },
+        {
+          "dxcc": 217,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null
+        },
+        {
+          "dxcc": 104,
+          "pas": null,
+          "prefix": "CP",
+          "boundary": "south of 16,5S"
+        },
+        {
+          "dxcc": 144,
+          "pas": null,
+          "prefix": "CX",
+          "boundary": null
+        },
+        {
+          "dxcc": 100,
+          "pas": null,
+          "prefix": "LU",
+          "boundary": "north of 40S"
+        },
+        {
+          "dxcc": 132,
+          "pas": null,
+          "prefix": "ZP",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14",
+      "transcription_note": "CE0 parentheses (Juan Fernandez, San Felix) name entities. '16,5S' decimal comma kept as published."
+    },
+    {
+      "code": "15",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 108,
+          "pas": null,
+          "prefix": "PY",
+          "boundary": "south of 16,5S"
+        },
+        {
+          "dxcc": 273,
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 15",
+      "transcription_note": "'PY0 (Trinidade)' (spelling as published) mapped to 273 Trindade & Martim Vaz Is."
+    },
+    {
+      "code": "16",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 112,
+          "pas": null,
+          "prefix": "CE",
+          "boundary": "south of 40S"
+        },
+        {
+          "dxcc": 100,
+          "pas": null,
+          "prefix": "LU",
+          "boundary": "south of 40S"
+        },
+        {
+          "dxcc": 141,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 16"
+    },
+    {
+      "code": "17",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 242,
+          "pas": null,
+          "prefix": "TF",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 17"
+    },
+    {
+      "code": "18",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 259,
+          "pas": null,
+          "prefix": "JW",
+          "boundary": "south of 80N"
+        },
+        {
+          "dxcc": 118,
+          "pas": null,
+          "prefix": "JX",
+          "boundary": null
+        },
+        {
+          "dxcc": 266,
+          "pas": null,
+          "prefix": "LA",
+          "boundary": null
+        },
+        {
+          "dxcc": 224,
+          "pas": null,
+          "prefix": "OH",
+          "boundary": null
+        },
+        {
+          "dxcc": 5,
+          "pas": null,
+          "prefix": "OH0",
+          "boundary": null
+        },
+        {
+          "dxcc": 167,
+          "pas": null,
+          "prefix": "OJ0",
+          "boundary": null
+        },
+        {
+          "dxcc": 222,
+          "pas": null,
+          "prefix": "OY",
+          "boundary": null
+        },
+        {
+          "dxcc": 221,
+          "pas": null,
+          "prefix": "OZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 284,
+          "pas": null,
+          "prefix": "SM",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+    },
+    {
+      "code": "19",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": "between 60 and 80N and west of 50E"
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA9",
+          "boundary": "between 60 and 80N and west of 50E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 19",
+      "transcription_note": "'50E' is printed with the E as a superscript in both places (the text layer reads '50 E' for the first); transcribed '50E'. UA9 between 60 and 80N west of 50E is the western Komi Republic, European Russia (54) - mapped by geography, judgement call."
+    },
+    {
+      "code": "20",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 61,
+          "pas": null,
+          "prefix": "R1F",
+          "boundary": "south of 80N"
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": "between 60 and 80N and east of 50E"
+        },
+        {
+          "dxcc": null,
+          "pas": null,
+          "prefix": "UA9",
+          "boundary": "between 60 and 80N and between 50 and 75E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 20",
+      "transcription_note": "'R1F (FJL south of 80N)': FJL names the entity (61 Franz Josef Land); boundary 'south of 80N'. UA9 between 50 and 75E (60-80N) spans European Russia (Komi, 54) and Asiatic Russia (Yamal, Khanty-Mansi, 15): dxcc left null."
+    },
+    {
+      "code": "21",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA9/0",
+          "boundary": "betwwen 60 and 80N and between 75 and 90E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 21",
+      "transcription_note": "'betwwen' is a typo for 'between', kept as published in the boundary."
+    },
+    {
+      "code": "22",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60 and 80N and between 90 and 110E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 22"
+    },
+    {
+      "code": "23",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60and 80N and between 110 and 135E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 23",
+      "transcription_note": "'60and' (missing space) kept as published in the boundary."
+    },
+    {
+      "code": "24",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60 and 80N and between 135 and 155E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 24"
+    },
+    {
+      "code": "25",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60 and 80N and between 155 and 170E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 25"
+    },
+    {
+      "code": "26",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "Uaà",
+          "boundary": "between 60 and 80N and east of 170E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 26",
+      "transcription_note": "'Uaà' kept as published; an evident encoding slip for UA0 (UA-zero), cf. zones 22-25."
+    },
+    {
+      "code": "27",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 203,
+          "pas": null,
+          "prefix": "C3",
+          "boundary": null
+        },
+        {
+          "dxcc": 245,
+          "pas": null,
+          "prefix": "EI",
+          "boundary": null
+        },
+        {
+          "dxcc": 227,
+          "pas": null,
+          "prefix": "F",
+          "boundary": null
+        },
+        {
+          "dxcc": 114,
+          "pas": null,
+          "prefix": "GD",
+          "boundary": null
+        },
+        {
+          "dxcc": 265,
+          "pas": null,
+          "prefix": "GI",
+          "boundary": null
+        },
+        {
+          "dxcc": 122,
+          "pas": null,
+          "prefix": "GJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 279,
+          "pas": null,
+          "prefix": "GM",
+          "boundary": null
+        },
+        {
+          "dxcc": 106,
+          "pas": null,
+          "prefix": "GU",
+          "boundary": null
+        },
+        {
+          "dxcc": 254,
+          "pas": null,
+          "prefix": "LX",
+          "boundary": null
+        },
+        {
+          "dxcc": 209,
+          "pas": null,
+          "prefix": "ON",
+          "boundary": null
+        },
+        {
+          "dxcc": 263,
+          "pas": null,
+          "prefix": "PA",
+          "boundary": null
+        },
+        {
+          "dxcc": 260,
+          "pas": null,
+          "prefix": "3A",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27",
+      "transcription_note": "G (England) and GW (Wales) do not appear in this zone or anywhere in this edition's list."
+    },
+    {
+      "code": "28",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 230,
+          "pas": null,
+          "prefix": "DL",
+          "boundary": null
+        },
+        {
+          "dxcc": 239,
+          "pas": null,
+          "prefix": "HA",
+          "boundary": null
+        },
+        {
+          "dxcc": 287,
+          "pas": null,
+          "prefix": "HB",
+          "boundary": null
+        },
+        {
+          "dxcc": 251,
+          "pas": null,
+          "prefix": "HB0",
+          "boundary": null
+        },
+        {
+          "dxcc": 295,
+          "pas": null,
+          "prefix": "HV",
+          "boundary": null
+        },
+        {
+          "dxcc": 248,
+          "pas": null,
+          "prefix": "I",
+          "boundary": "excluding IG9 & IH9"
+        },
+        {
+          "dxcc": 225,
+          "pas": null,
+          "prefix": "IS",
+          "boundary": null
+        },
+        {
+          "dxcc": 212,
+          "pas": null,
+          "prefix": "LZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 206,
+          "pas": null,
+          "prefix": "OE",
+          "boundary": null
+        },
+        {
+          "dxcc": 503,
+          "pas": null,
+          "prefix": "OK",
+          "boundary": null
+        },
+        {
+          "dxcc": 504,
+          "pas": null,
+          "prefix": "OM",
+          "boundary": null
+        },
+        {
+          "dxcc": 499,
+          "pas": null,
+          "prefix": "S5",
+          "boundary": null
+        },
+        {
+          "dxcc": 269,
+          "pas": null,
+          "prefix": "SP",
+          "boundary": null
+        },
+        {
+          "dxcc": 236,
+          "pas": null,
+          "prefix": "SV",
+          "boundary": null
+        },
+        {
+          "dxcc": 180,
+          "pas": null,
+          "prefix": "SV",
+          "boundary": null
+        },
+        {
+          "dxcc": 45,
+          "pas": null,
+          "prefix": "SV5",
+          "boundary": null
+        },
+        {
+          "dxcc": 40,
+          "pas": null,
+          "prefix": "SV9",
+          "boundary": null
+        },
+        {
+          "dxcc": 278,
+          "pas": null,
+          "prefix": "T7",
+          "boundary": null
+        },
+        {
+          "dxcc": 501,
+          "pas": null,
+          "prefix": "T9",
+          "boundary": null
+        },
+        {
+          "dxcc": 214,
+          "pas": null,
+          "prefix": "TK",
+          "boundary": null
+        },
+        {
+          "dxcc": 275,
+          "pas": null,
+          "prefix": "YO",
+          "boundary": null
+        },
+        {
+          "dxcc": 296,
+          "pas": null,
+          "prefix": "YU",
+          "boundary": null
+        },
+        {
+          "dxcc": 502,
+          "pas": null,
+          "prefix": "Z3",
+          "boundary": null
+        },
+        {
+          "dxcc": 7,
+          "pas": null,
+          "prefix": "ZA",
+          "boundary": null
+        },
+        {
+          "dxcc": 246,
+          "pas": null,
+          "prefix": "1A0",
+          "boundary": null
+        },
+        {
+          "dxcc": 117,
+          "pas": null,
+          "prefix": "4U",
+          "boundary": null
+        },
+        {
+          "dxcc": 497,
+          "pas": null,
+          "prefix": "9A",
+          "boundary": null
+        },
+        {
+          "dxcc": 257,
+          "pas": null,
+          "prefix": "9H",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28",
+      "transcription_note": "'SV (Mt. Athos)' mapped to 180, '1A0 (SMOM)' to 246, '4U (Geneva)' to 117 ITU HQ (Geneva) - parentheses name entities. 'YU' mapped to 296 (ADIF 'SERBIA', the code that Yugoslavia/Serbia & Montenegro carried)."
+    },
+    {
+      "code": "29",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 14,
+          "pas": null,
+          "prefix": "EK",
+          "boundary": null
+        },
+        {
+          "dxcc": 179,
+          "pas": null,
+          "prefix": "ER",
+          "boundary": null
+        },
+        {
+          "dxcc": 52,
+          "pas": null,
+          "prefix": "ES",
+          "boundary": null
+        },
+        {
+          "dxcc": 27,
+          "pas": null,
+          "prefix": "EU",
+          "boundary": null
+        },
+        {
+          "dxcc": 146,
+          "pas": null,
+          "prefix": "LY",
+          "boundary": null
+        },
+        {
+          "dxcc": 151,
+          "pas": null,
+          "prefix": "R1M",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": "south of 60N"
+        },
+        {
+          "dxcc": 126,
+          "pas": null,
+          "prefix": "UA2",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA3",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA4",
+          "boundary": "west of 50E"
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA6",
+          "boundary": null
+        },
+        {
+          "dxcc": 130,
+          "pas": null,
+          "prefix": "UN",
+          "boundary": "west of 50E"
+        },
+        {
+          "dxcc": 288,
+          "pas": null,
+          "prefix": "UR",
+          "boundary": null
+        },
+        {
+          "dxcc": 145,
+          "pas": null,
+          "prefix": "YL",
+          "boundary": null
+        },
+        {
+          "dxcc": 18,
+          "pas": null,
+          "prefix": "4J",
+          "boundary": null
+        },
+        {
+          "dxcc": 75,
+          "pas": null,
+          "prefix": "4L",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29",
+      "transcription_note": "Country names in parentheses identify the entity. 'R1M (MV Island)' mapped to 151 Malyj Vysotskij I. (deleted in ADIF; ARRL: deleted). 'UN (Kazakhstan west of 50E)': Kazakhstan names the entity, boundary 'west of 50E'. UA2 mapped to 126 Kaliningrad."
+    },
+    {
+      "code": "30",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 135,
+          "pas": null,
+          "prefix": "EX",
+          "boundary": "west of 75E"
+        },
+        {
+          "dxcc": 262,
+          "pas": null,
+          "prefix": "EY",
+          "boundary": null
+        },
+        {
+          "dxcc": 280,
+          "pas": null,
+          "prefix": "EZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 54,
+          "pas": null,
+          "prefix": "UA4",
+          "boundary": "east of 50E"
+        },
+        {
+          "dxcc": null,
+          "pas": null,
+          "prefix": "UA9",
+          "boundary": "south of 60N and west of 75E"
+        },
+        {
+          "dxcc": 292,
+          "pas": null,
+          "prefix": "UK",
+          "boundary": null
+        },
+        {
+          "dxcc": 130,
+          "pas": null,
+          "prefix": "UN",
+          "boundary": "between 50 and 75E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30",
+      "transcription_note": "'EX (Kyrgyztan west of 75E)' (spelling as published) boundary 'west of 75E'; 'EY (Tajikstan)' spelling as published; 'EZ (Turkmenistan, UA4 (east of 50E)' is published with the closing parenthesis after Turkmenistan missing - read as EZ (Turkmenistan), UA4 (east of 50E). UA9 south of 60N and west of 75E spans European Russia (Perm, southern Komi; 54) and Asiatic Russia (Sverdlovsk, Chelyabinsk, Kurgan, Tyumen, Omsk...; 15): dxcc left null."
+    },
+    {
+      "code": "31",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 135,
+          "pas": null,
+          "prefix": "EX",
+          "boundary": "east of 75E"
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA9/0",
+          "boundary": "south of 60N and between 75 and 90E"
+        },
+        {
+          "dxcc": 130,
+          "pas": null,
+          "prefix": "UN",
+          "boundary": "east of 75E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 31",
+      "transcription_note": "'EX (Kyrgyzstaneast of 75E)' is published without a space after Kyrgyzstan; boundary 'east of 75E'."
+    },
+    {
+      "code": "32",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 363,
+          "pas": null,
+          "prefix": "JT",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA8T",
+          "boundary": "west of 110E"
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 90 and 110E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 32",
+      "transcription_note": "JT appears in both zone 32 and zone 33 with no boundary given in either. UA8T is an old-series Russian prefix; mapped to Asiatic Russia (15) as it lies east of the Urals at 90-110E."
+    },
+    {
+      "code": "33",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "north of 44N"
+        },
+        {
+          "dxcc": 363,
+          "pas": null,
+          "prefix": "JT",
+          "boundary": null
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA8V",
+          "boundary": "east of 110E"
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 110 and 135E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 33",
+      "transcription_note": "JT also in zone 32 without boundary. UA8V (old-series prefix) mapped to Asiatic Russia (15)."
+    },
+    {
+      "code": "34",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 135 and 155E including Primor’ye and Sakhalin but excluding the Kurils"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 34",
+      "transcription_note": "Primor'ye and Sakhalin are area names within the boundary wording, kept verbatim (curly apostrophe as published); no subdivision code assigned."
+    },
+    {
+      "code": "35",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 155 and 170E including the Kurils"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 35"
+    },
+    {
+      "code": "36",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 256,
+          "pas": null,
+          "prefix": "CT3",
+          "boundary": null
+        },
+        {
+          "dxcc": 149,
+          "pas": null,
+          "prefix": "CU",
+          "boundary": null
+        },
+        {
+          "dxcc": 29,
+          "pas": null,
+          "prefix": "EA8",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 36"
+    },
+    {
+      "code": "37",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 446,
+          "pas": null,
+          "prefix": "CN",
+          "boundary": null
+        },
+        {
+          "dxcc": 272,
+          "pas": null,
+          "prefix": "CT",
+          "boundary": null
+        },
+        {
+          "dxcc": 281,
+          "pas": null,
+          "prefix": "EA",
+          "boundary": null
+        },
+        {
+          "dxcc": 21,
+          "pas": null,
+          "prefix": "EA6",
+          "boundary": null
+        },
+        {
+          "dxcc": 32,
+          "pas": null,
+          "prefix": "EA9",
+          "boundary": null
+        },
+        {
+          "dxcc": 248,
+          "pas": null,
+          "prefix": "IG9",
+          "boundary": null
+        },
+        {
+          "dxcc": 248,
+          "pas": null,
+          "prefix": "IH9",
+          "boundary": null
+        },
+        {
+          "dxcc": 233,
+          "pas": null,
+          "prefix": "ZB",
+          "boundary": null
+        },
+        {
+          "dxcc": 474,
+          "pas": null,
+          "prefix": "3V",
+          "boundary": null
+        },
+        {
+          "dxcc": 400,
+          "pas": null,
+          "prefix": "7X",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37",
+      "transcription_note": "IG9 (Pelagie Is.) and IH9 (Pantelleria) are part of entity 248 Italy; zone 28 lists 'I (excluding IG9 & IH9)'."
+    },
+    {
+      "code": "38",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 478,
+          "pas": null,
+          "prefix": "SU",
+          "boundary": null
+        },
+        {
+          "dxcc": 436,
+          "pas": null,
+          "prefix": "5A",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 38"
+    },
+    {
+      "code": "39",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 370,
+          "pas": null,
+          "prefix": "A4",
+          "boundary": null
+        },
+        {
+          "dxcc": 391,
+          "pas": null,
+          "prefix": "A6",
+          "boundary": null
+        },
+        {
+          "dxcc": 376,
+          "pas": null,
+          "prefix": "A7",
+          "boundary": null
+        },
+        {
+          "dxcc": 304,
+          "pas": null,
+          "prefix": "A9",
+          "boundary": null
+        },
+        {
+          "dxcc": 378,
+          "pas": null,
+          "prefix": "HZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 342,
+          "pas": null,
+          "prefix": "JY",
+          "boundary": null
+        },
+        {
+          "dxcc": 354,
+          "pas": null,
+          "prefix": "OD",
+          "boundary": null
+        },
+        {
+          "dxcc": 390,
+          "pas": null,
+          "prefix": "TA",
+          "boundary": null
+        },
+        {
+          "dxcc": 333,
+          "pas": null,
+          "prefix": "YI",
+          "boundary": null
+        },
+        {
+          "dxcc": 384,
+          "pas": null,
+          "prefix": "YK",
+          "boundary": null
+        },
+        {
+          "dxcc": 283,
+          "pas": null,
+          "prefix": "ZC4",
+          "boundary": null
+        },
+        {
+          "dxcc": 336,
+          "pas": null,
+          "prefix": "4X",
+          "boundary": null
+        },
+        {
+          "dxcc": 215,
+          "pas": null,
+          "prefix": "5B",
+          "boundary": null
+        },
+        {
+          "dxcc": 492,
+          "pas": null,
+          "prefix": "7O",
+          "boundary": null
+        },
+        {
+          "dxcc": 348,
+          "pas": null,
+          "prefix": "9K",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39",
+      "transcription_note": "7O also appears in zone 48 with no boundary given in either."
+    },
+    {
+      "code": "40",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 330,
+          "pas": null,
+          "prefix": "EP",
+          "boundary": null
+        },
+        {
+          "dxcc": 3,
+          "pas": null,
+          "prefix": "YA",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 40"
+    },
+    {
+      "code": "41",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 306,
+          "pas": null,
+          "prefix": "A5",
+          "boundary": null
+        },
+        {
+          "dxcc": 372,
+          "pas": null,
+          "prefix": "AP",
+          "boundary": null
+        },
+        {
+          "dxcc": 305,
+          "pas": null,
+          "prefix": "S2",
+          "boundary": null
+        },
+        {
+          "dxcc": 33,
+          "pas": null,
+          "prefix": "VQ9",
+          "boundary": null
+        },
+        {
+          "dxcc": 324,
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null
+        },
+        {
+          "dxcc": 142,
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null
+        },
+        {
+          "dxcc": 315,
+          "pas": null,
+          "prefix": "4S",
+          "boundary": null
+        },
+        {
+          "dxcc": 159,
+          "pas": null,
+          "prefix": "8Q",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41",
+      "transcription_note": "'VU (India)' mapped to 324, 'VU (Laccadives)' to 142 Lakshadweep Is. - parentheses name entities."
+    },
+    {
+      "code": "42",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "west of 90E"
+        },
+        {
+          "dxcc": 369,
+          "pas": null,
+          "prefix": "9N",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 42",
+      "transcription_note": "'90E' printed with superscript E; transcribed '90E'."
+    },
+    {
+      "code": "43",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "between 90 and 110E, excluding Hainan"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 43"
+    },
+    {
+      "code": "44",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 386,
+          "pas": null,
+          "prefix": "BV",
+          "boundary": null
+        },
+        {
+          "dxcc": 318,
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "south of 44N and east of 110E, including Hainan"
+        },
+        {
+          "dxcc": 137,
+          "pas": null,
+          "prefix": "HL",
+          "boundary": null
+        },
+        {
+          "dxcc": 344,
+          "pas": null,
+          "prefix": "P5",
+          "boundary": null
+        },
+        {
+          "dxcc": 321,
+          "pas": null,
+          "prefix": "VR2/VS6",
+          "boundary": null
+        },
+        {
+          "dxcc": 152,
+          "pas": null,
+          "prefix": "XX9",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+    },
+    {
+      "code": "45",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 339,
+          "pas": null,
+          "prefix": "JA",
+          "boundary": null
+        },
+        {
+          "dxcc": 192,
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 45",
+      "transcription_note": "'JD1 (Ogasawara)' mapped to 192; JD1 (Minami Torishima) is zone 90."
+    },
+    {
+      "code": "46",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 422,
+          "pas": null,
+          "prefix": "C5",
+          "boundary": null
+        },
+        {
+          "dxcc": 409,
+          "pas": null,
+          "prefix": "D4",
+          "boundary": null
+        },
+        {
+          "dxcc": 434,
+          "pas": null,
+          "prefix": "EL",
+          "boundary": null
+        },
+        {
+          "dxcc": 109,
+          "pas": null,
+          "prefix": "J5",
+          "boundary": null
+        },
+        {
+          "dxcc": 302,
+          "pas": null,
+          "prefix": "S0",
+          "boundary": null
+        },
+        {
+          "dxcc": 428,
+          "pas": null,
+          "prefix": "TU",
+          "boundary": null
+        },
+        {
+          "dxcc": 416,
+          "pas": null,
+          "prefix": "TY",
+          "boundary": null
+        },
+        {
+          "dxcc": 442,
+          "pas": null,
+          "prefix": "TZ",
+          "boundary": null
+        },
+        {
+          "dxcc": 480,
+          "pas": null,
+          "prefix": "XT",
+          "boundary": null
+        },
+        {
+          "dxcc": 107,
+          "pas": null,
+          "prefix": "3X",
+          "boundary": null
+        },
+        {
+          "dxcc": 450,
+          "pas": null,
+          "prefix": "5N",
+          "boundary": null
+        },
+        {
+          "dxcc": 444,
+          "pas": null,
+          "prefix": "5T",
+          "boundary": null
+        },
+        {
+          "dxcc": 187,
+          "pas": null,
+          "prefix": "5U",
+          "boundary": null
+        },
+        {
+          "dxcc": 483,
+          "pas": null,
+          "prefix": "5V",
+          "boundary": null
+        },
+        {
+          "dxcc": 456,
+          "pas": null,
+          "prefix": "6W",
+          "boundary": null
+        },
+        {
+          "dxcc": 424,
+          "pas": null,
+          "prefix": "9G",
+          "boundary": null
+        },
+        {
+          "dxcc": 458,
+          "pas": null,
+          "prefix": "9L",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+    },
+    {
+      "code": "47",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 219,
+          "pas": null,
+          "prefix": "S9",
+          "boundary": null
+        },
+        {
+          "dxcc": 466,
+          "pas": null,
+          "prefix": "ST",
+          "boundary": null
+        },
+        {
+          "dxcc": 244,
+          "pas": null,
+          "prefix": "ST0",
+          "boundary": null
+        },
+        {
+          "dxcc": 406,
+          "pas": null,
+          "prefix": "1J",
+          "boundary": null
+        },
+        {
+          "dxcc": 408,
+          "pas": null,
+          "prefix": "TL",
+          "boundary": null
+        },
+        {
+          "dxcc": 410,
+          "pas": null,
+          "prefix": "TT",
+          "boundary": null
+        },
+        {
+          "dxcc": 49,
+          "pas": null,
+          "prefix": "3C",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47",
+      "transcription_note": "'1J' kept as published; no such ITU prefix exists. Read as an evident slip for TJ (Cameroon, 406), which is otherwise absent from the list and which ARRL and cty.dat place in ITU zone 47 - judgement call. ST and ST0 also appear in zone 48 with no boundary in either. ST0 mapped to 244 Southern Sudan (deleted; ARRL valid 1972-05-07 to 1994-12-31)."
+    },
+    {
+      "code": "48",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 51,
+          "pas": null,
+          "prefix": "E3",
+          "boundary": null
+        },
+        {
+          "dxcc": 53,
+          "pas": null,
+          "prefix": "ET",
+          "boundary": null
+        },
+        {
+          "dxcc": 382,
+          "pas": null,
+          "prefix": "J2",
+          "boundary": null
+        },
+        {
+          "dxcc": 466,
+          "pas": null,
+          "prefix": "ST",
+          "boundary": null
+        },
+        {
+          "dxcc": 244,
+          "pas": null,
+          "prefix": "ST0",
+          "boundary": null
+        },
+        {
+          "dxcc": 232,
+          "pas": null,
+          "prefix": "T5",
+          "boundary": null
+        },
+        {
+          "dxcc": 286,
+          "pas": null,
+          "prefix": "5X",
+          "boundary": null
+        },
+        {
+          "dxcc": 430,
+          "pas": null,
+          "prefix": "5Z",
+          "boundary": null
+        },
+        {
+          "dxcc": 492,
+          "pas": null,
+          "prefix": "7O",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48",
+      "transcription_note": "ST, ST0 and 7O also appear in other zones (47, 47, 39) with no boundary in either."
+    },
+    {
+      "code": "49",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 387,
+          "pas": null,
+          "prefix": "HS",
+          "boundary": null
+        },
+        {
+          "dxcc": 11,
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null
+        },
+        {
+          "dxcc": 312,
+          "pas": null,
+          "prefix": "XU",
+          "boundary": null
+        },
+        {
+          "dxcc": 293,
+          "pas": null,
+          "prefix": "XV",
+          "boundary": null
+        },
+        {
+          "dxcc": 143,
+          "pas": null,
+          "prefix": "XW",
+          "boundary": null
+        },
+        {
+          "dxcc": 309,
+          "pas": null,
+          "prefix": "XZ",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49",
+      "transcription_note": "'VU (Andemans)' (spelling as published) mapped to 11 Andaman & Nicobar Is."
+    },
+    {
+      "code": "50",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 375,
+          "pas": null,
+          "prefix": "DU",
+          "boundary": null
+        },
+        {
+          "dxcc": 247,
+          "pas": null,
+          "prefix": "1S",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 50"
+    },
+    {
+      "code": "51",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 185,
+          "pas": null,
+          "prefix": "H4",
+          "boundary": null
+        },
+        {
+          "dxcc": 163,
+          "pas": null,
+          "prefix": "P2",
+          "boundary": null
+        },
+        {
+          "dxcc": 327,
+          "pas": null,
+          "prefix": "YB8/9",
+          "boundary": "east of 130E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 51",
+      "transcription_note": "'130E' printed with superscript E; transcribed '130E'."
+    },
+    {
+      "code": "52",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 401,
+          "pas": null,
+          "prefix": "D2",
+          "boundary": null
+        },
+        {
+          "dxcc": 412,
+          "pas": null,
+          "prefix": "TN",
+          "boundary": null
+        },
+        {
+          "dxcc": 420,
+          "pas": null,
+          "prefix": "TR",
+          "boundary": null
+        },
+        {
+          "dxcc": 195,
+          "pas": null,
+          "prefix": "3C0",
+          "boundary": null
+        },
+        {
+          "dxcc": 414,
+          "pas": null,
+          "prefix": "9Q",
+          "boundary": null
+        },
+        {
+          "dxcc": 404,
+          "pas": null,
+          "prefix": "9U",
+          "boundary": null
+        },
+        {
+          "dxcc": 454,
+          "pas": null,
+          "prefix": "9X",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+    },
+    {
+      "code": "53",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 181,
+          "pas": null,
+          "prefix": "C9",
+          "boundary": null
+        },
+        {
+          "dxcc": 411,
+          "pas": null,
+          "prefix": "D6",
+          "boundary": null
+        },
+        {
+          "dxcc": 169,
+          "pas": null,
+          "prefix": "FH",
+          "boundary": null
+        },
+        {
+          "dxcc": 453,
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null
+        },
+        {
+          "dxcc": 99,
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null
+        },
+        {
+          "dxcc": 124,
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null
+        },
+        {
+          "dxcc": 276,
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null
+        },
+        {
+          "dxcc": 379,
+          "pas": null,
+          "prefix": "S7",
+          "boundary": null
+        },
+        {
+          "dxcc": 452,
+          "pas": null,
+          "prefix": "Z2",
+          "boundary": null
+        },
+        {
+          "dxcc": 4,
+          "pas": null,
+          "prefix": "3B6/7",
+          "boundary": null
+        },
+        {
+          "dxcc": 165,
+          "pas": null,
+          "prefix": "3B8",
+          "boundary": null
+        },
+        {
+          "dxcc": 207,
+          "pas": null,
+          "prefix": "3B9",
+          "boundary": null
+        },
+        {
+          "dxcc": 470,
+          "pas": null,
+          "prefix": "5H",
+          "boundary": null
+        },
+        {
+          "dxcc": 438,
+          "pas": null,
+          "prefix": "5R",
+          "boundary": null
+        },
+        {
+          "dxcc": 440,
+          "pas": null,
+          "prefix": "7Q",
+          "boundary": null
+        },
+        {
+          "dxcc": 482,
+          "pas": null,
+          "prefix": "9J",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53",
+      "transcription_note": "FR parentheses (Reunion, Gloriosos, Juan de Nova, Tromelin) name entities 453, 99, 124, 276."
+    },
+    {
+      "code": "54",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 345,
+          "pas": null,
+          "prefix": "V8",
+          "boundary": null
+        },
+        {
+          "dxcc": 35,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        },
+        {
+          "dxcc": 38,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        },
+        {
+          "dxcc": 327,
+          "pas": null,
+          "prefix": "YB1-7",
+          "boundary": null
+        },
+        {
+          "dxcc": 327,
+          "pas": null,
+          "prefix": "YB8/9",
+          "boundary": "west of 130E"
+        },
+        {
+          "dxcc": 299,
+          "pas": null,
+          "prefix": "9M2",
+          "boundary": null
+        },
+        {
+          "dxcc": 46,
+          "pas": null,
+          "prefix": "9M6/8",
+          "boundary": null
+        },
+        {
+          "dxcc": 381,
+          "pas": null,
+          "prefix": "9V",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+    },
+    {
+      "code": "55",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK4",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK8",
+          "boundary": null
+        },
+        {
+          "dxcc": 303,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 55"
+    },
+    {
+      "code": "56",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 162,
+          "pas": null,
+          "prefix": "FK",
+          "boundary": null
+        },
+        {
+          "dxcc": 171,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        },
+        {
+          "dxcc": 158,
+          "pas": null,
+          "prefix": "YJ",
+          "boundary": null
+        },
+        {
+          "dxcc": 489,
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null
+        },
+        {
+          "dxcc": 460,
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 56",
+      "transcription_note": "Fiji (3D2 proper, 176) is not listed in this edition; only 3D2 (Conway Reef) and 3D2 (Rotuma) appear."
+    },
+    {
+      "code": "57",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 402,
+          "pas": null,
+          "prefix": "A2",
+          "boundary": null
+        },
+        {
+          "dxcc": 464,
+          "pas": null,
+          "prefix": "V5",
+          "boundary": null
+        },
+        {
+          "dxcc": 462,
+          "pas": null,
+          "prefix": "ZS",
+          "boundary": null
+        },
+        {
+          "dxcc": 201,
+          "pas": null,
+          "prefix": "ZS8",
+          "boundary": null
+        },
+        {
+          "dxcc": 468,
+          "pas": null,
+          "prefix": "3DA",
+          "boundary": null
+        },
+        {
+          "dxcc": 432,
+          "pas": null,
+          "prefix": "7P",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+    },
+    {
+      "code": "58",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK6",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 58"
+    },
+    {
+      "code": "59",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK1",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK2",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK3",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK5",
+          "boundary": null
+        },
+        {
+          "dxcc": 150,
+          "pas": null,
+          "prefix": "VK7",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 59"
+    },
+    {
+      "code": "60",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 147,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        },
+        {
+          "dxcc": 189,
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null
+        },
+        {
+          "dxcc": 153,
+          "pas": null,
+          "prefix": "VK0",
+          "boundary": null
+        },
+        {
+          "dxcc": 170,
+          "pas": null,
+          "prefix": "ZL",
+          "boundary": null
+        },
+        {
+          "dxcc": 34,
+          "pas": null,
+          "prefix": "ZL7",
+          "boundary": null
+        },
+        {
+          "dxcc": 133,
+          "pas": null,
+          "prefix": "ZL8",
+          "boundary": null
+        },
+        {
+          "dxcc": 16,
+          "pas": null,
+          "prefix": "ZL9",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+    },
+    {
+      "code": "61",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 20,
+          "pas": null,
+          "prefix": "KH1",
+          "boundary": null
+        },
+        {
+          "dxcc": 123,
+          "pas": null,
+          "prefix": "KH3",
+          "boundary": null
+        },
+        {
+          "dxcc": 174,
+          "pas": null,
+          "prefix": "KH4",
+          "boundary": null
+        },
+        {
+          "dxcc": 197,
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": "Palmyra but not Jarvis"
+        },
+        {
+          "dxcc": 134,
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": null
+        },
+        {
+          "dxcc": 110,
+          "pas": null,
+          "prefix": "KH6/7",
+          "boundary": null
+        },
+        {
+          "dxcc": 138,
+          "pas": null,
+          "prefix": "KH7K",
+          "boundary": null
+        },
+        {
+          "dxcc": 48,
+          "pas": null,
+          "prefix": "T32",
+          "boundary": "Northern Line Islands only"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61",
+      "transcription_note": "'KH5 (Palmyra but not Jarvis)' and zone 62 'KH5 (Jarvis)' split one entity (197 Palmyra & Jarvis Is.) between two zones, so the wording is recorded as the boundary (judgement call). 'KH5 (Kingman Reef)' mapped to 134 Kingman Reef (deleted; ARRL: contacts to 2016-03-29). 'T32 (Northern Line Islands only)' recorded as boundary within 48 E. Kiribati."
+    },
+    {
+      "code": "62",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 160,
+          "pas": null,
+          "prefix": "A3",
+          "boundary": null
+        },
+        {
+          "dxcc": 298,
+          "pas": null,
+          "prefix": "FW",
+          "boundary": null
+        },
+        {
+          "dxcc": 197,
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": "Jarvis"
+        },
+        {
+          "dxcc": 9,
+          "pas": null,
+          "prefix": "KH8",
+          "boundary": null
+        },
+        {
+          "dxcc": 31,
+          "pas": null,
+          "prefix": "T31",
+          "boundary": null
+        },
+        {
+          "dxcc": 191,
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "west of 160W"
+        },
+        {
+          "dxcc": 234,
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "west of 160W"
+        },
+        {
+          "dxcc": 188,
+          "pas": null,
+          "prefix": "ZK2",
+          "boundary": null
+        },
+        {
+          "dxcc": 270,
+          "pas": null,
+          "prefix": "ZK3",
+          "boundary": null
+        },
+        {
+          "dxcc": 190,
+          "pas": null,
+          "prefix": "5W",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62",
+      "transcription_note": "'KH5 (Jarvis)': Jarvis is part of entity 197, recorded as boundary (see zone 61). 'ZK1 (North Cook west of 160W)' -> 191 North Cook Is.; 'ZK1 (South Cooks west of 160W)' -> 234 South Cook Is.; boundary 'west of 160W' in each."
+    },
+    {
+      "code": "63",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 47,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null
+        },
+        {
+          "dxcc": 175,
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null
+        },
+        {
+          "dxcc": 48,
+          "pas": null,
+          "prefix": "T32",
+          "boundary": "Central & Southern Line Islands"
+        },
+        {
+          "dxcc": 172,
+          "pas": null,
+          "prefix": "VR6",
+          "boundary": null
+        },
+        {
+          "dxcc": 234,
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "east of 160W"
+        },
+        {
+          "dxcc": 191,
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "east of 160W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63",
+      "transcription_note": "'CE0 (Easter)' mapped to 47. 'T32 (Central & Southern Line Islands)' recorded as boundary within 48 E. Kiribati."
+    },
+    {
+      "code": "64",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 22,
+          "pas": null,
+          "prefix": "KC6/T8",
+          "boundary": null
+        },
+        {
+          "dxcc": 103,
+          "pas": null,
+          "prefix": "KH2",
+          "boundary": null
+        },
+        {
+          "dxcc": 166,
+          "pas": null,
+          "prefix": "KH0",
+          "boundary": null
+        },
+        {
+          "dxcc": 173,
+          "pas": null,
+          "prefix": "V6",
+          "boundary": "west of 150E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 64"
+    },
+    {
+      "code": "65",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 157,
+          "pas": null,
+          "prefix": "C2",
+          "boundary": null
+        },
+        {
+          "dxcc": 297,
+          "pas": null,
+          "prefix": "KH9",
+          "boundary": null
+        },
+        {
+          "dxcc": 282,
+          "pas": null,
+          "prefix": "T2",
+          "boundary": null
+        },
+        {
+          "dxcc": 301,
+          "pas": null,
+          "prefix": "T30",
+          "boundary": null
+        },
+        {
+          "dxcc": 490,
+          "pas": null,
+          "prefix": "T33",
+          "boundary": null
+        },
+        {
+          "dxcc": 173,
+          "pas": null,
+          "prefix": "V6",
+          "boundary": "east of 150E"
+        },
+        {
+          "dxcc": 168,
+          "pas": null,
+          "prefix": "V7",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+    },
+    {
+      "code": "66",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 250,
+          "pas": null,
+          "prefix": "ZD7",
+          "boundary": null
+        },
+        {
+          "dxcc": 205,
+          "pas": null,
+          "prefix": "ZD8",
+          "boundary": null
+        },
+        {
+          "dxcc": 274,
+          "pas": null,
+          "prefix": "ZD9",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 66"
+    },
+    {
+      "code": "67",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 20W and 40E"
+        },
+        {
+          "dxcc": 24,
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 67",
+      "transcription_note": "'40E' printed with superscript E; transcribed '40E'. Antarctica has no prefix in the text (prefix null)."
+    },
+    {
+      "code": "68",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 10,
+          "pas": null,
+          "prefix": "FT",
+          "boundary": null
+        },
+        {
+          "dxcc": 41,
+          "pas": null,
+          "prefix": "FT",
+          "boundary": null
+        },
+        {
+          "dxcc": 131,
+          "pas": null,
+          "prefix": "FT",
+          "boundary": null
+        },
+        {
+          "dxcc": 111,
+          "pas": null,
+          "prefix": "VK0",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 68"
+    },
+    {
+      "code": "69",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 40 and 100E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 69"
+    },
+    {
+      "code": "70",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 100 and 160E"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 70"
+    },
+    {
+      "code": "71",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 160E and 140W"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 71"
+    },
+    {
+      "code": "72",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 140 and 80W"
+        },
+        {
+          "dxcc": 199,
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 72"
+    },
+    {
+      "code": "73",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 80 and 20W"
+        },
+        {
+          "dxcc": 235,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 238,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 240,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        },
+        {
+          "dxcc": 241,
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 73"
+    },
+    {
+      "code": "74",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 13,
+          "pas": null,
+          "prefix": null,
+          "boundary": "between 80 and 90S South Pole"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 74",
+      "transcription_note": "Published 'Antarctica (between 80 and 90S South Pole))' with a doubled closing parenthesis; the stray ')' is left out of the boundary."
+    },
+    {
+      "code": "75",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 259,
+          "pas": null,
+          "prefix": "JW",
+          "boundary": "north of 80N"
+        },
+        {
+          "dxcc": 237,
+          "pas": null,
+          "prefix": "OX",
+          "boundary": "north of 80N"
+        },
+        {
+          "dxcc": 61,
+          "pas": null,
+          "prefix": "R1F",
+          "boundary": "north of 80N"
+        },
+        {
+          "dxcc": 15,
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "Severnaya Zemlya north of 80N"
+        },
+        {
+          "dxcc": 1,
+          "pas": null,
+          "prefix": "VE8",
+          "boundary": "north of 80N"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 75",
+      "transcription_note": "'R1F (FJL north of 80N)': FJL names the entity, boundary 'north of 80N'. 'Severnaya Zemlya' is an area within Asiatic Russia, kept in the boundary."
+    },
+    {
+      "code": "76",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 76",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "77",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 77",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "78",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 47,
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": "Sala y Gomez"
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 78",
+      "transcription_note": "'CE0 (Sala y Gomez)': Sala y Gomez is not a DXCC entity; it counts as part of 47 Easter I. (ARRL/cty.dat). Recorded as boundary within 47 (judgement call)."
+    },
+    {
+      "code": "79",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 79",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "80",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 80",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "81",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 81",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "82",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 82",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "83",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 83",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "84",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 84",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "85",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 85",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "86",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 86",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "87",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 87",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "88",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 88",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "89",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 89",
+      "transcription_note": "No entry in this edition"
+    },
+    {
+      "code": "90",
+      "name": null,
+      "valid_from": null,
+      "valid_to": null,
+      "replaced_by": null,
+      "covers": [
+        {
+          "dxcc": 177,
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null
+        }
+      ],
+      "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 90",
+      "transcription_note": "'JD1 (Minami Torishima)' mapped to 177."
+    }
+  ]
+}
