@@ -1,0 +1,5517 @@
+{
+  "_about": "Derived by this package, not published by the owner: each ADIF DXCC entity and the ITU zones the owner's list assigns to it, built from facts/itu_zones.json. Where an entity is split, parts gives the owner's own boundary wording.",
+  "derived_from": "facts/itu_zones.json",
+  "owner_document": "IARURegion1HFManagerHandbook8.2.1.pdf",
+  "edition": "2000-11 (chapter 9.8 as printed in Handbook v8.2, 2016)",
+  "entities": {
+    "1": {
+      "zones": [
+        "2",
+        "3",
+        "4",
+        "9",
+        "75"
+      ],
+      "parts": [
+        {
+          "zone": "2",
+          "pas": null,
+          "prefix": "VE6",
+          "boundary": "south of 80N and west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 2"
+        },
+        {
+          "zone": "2",
+          "pas": null,
+          "prefix": "VE7",
+          "boundary": "south of 80N and west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 2"
+        },
+        {
+          "zone": "2",
+          "pas": null,
+          "prefix": "VE8",
+          "boundary": "south of 80N and west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 2"
+        },
+        {
+          "zone": "2",
+          "pas": null,
+          "prefix": "VY1",
+          "boundary": "south of 80N and west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 2"
+        },
+        {
+          "zone": "3",
+          "pas": null,
+          "prefix": "VE3/4/5/8",
+          "boundary": "south of 80N and between 90 & 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 3"
+        },
+        {
+          "zone": "4",
+          "pas": null,
+          "prefix": "VE2/3/4/8",
+          "boundary": "south of 80N and between 70 and 90W including all Baffin Island",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 4"
+        },
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "VE1",
+          "boundary": "south of 80N and east of 70W but excluding Baffin Island",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        },
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "VE2",
+          "boundary": "south of 80N and east of 70W but excluding Baffin Island",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        },
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "VE8",
+          "boundary": "south of 80N and east of 70W but excluding Baffin Island",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        },
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "VO1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        },
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "VO2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        },
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "VY2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        },
+        {
+          "zone": "75",
+          "pas": null,
+          "prefix": "VE8",
+          "boundary": "north of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 75"
+        }
+      ]
+    },
+    "3": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "YA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 40"
+        }
+      ]
+    },
+    "4": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "3B6/7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "5": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "OH0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "6": {
+      "zones": [
+        "1",
+        "2"
+      ],
+      "parts": [
+        {
+          "zone": "1",
+          "pas": null,
+          "prefix": "KL",
+          "boundary": "west of 141W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 1"
+        },
+        {
+          "zone": "2",
+          "pas": null,
+          "prefix": "KL",
+          "boundary": "east of 141W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 2"
+        }
+      ]
+    },
+    "7": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "ZA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "9": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "KH8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "10": {
+      "zones": [
+        "68"
+      ],
+      "parts": [
+        {
+          "zone": "68",
+          "pas": null,
+          "prefix": "FT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 68"
+        }
+      ]
+    },
+    "11": {
+      "zones": [
+        "49"
+      ],
+      "parts": [
+        {
+          "zone": "49",
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49"
+        }
+      ]
+    },
+    "12": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "VP2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "13": {
+      "zones": [
+        "67",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74"
+      ],
+      "parts": [
+        {
+          "zone": "67",
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 20W and 40E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 67"
+        },
+        {
+          "zone": "69",
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 40 and 100E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 69"
+        },
+        {
+          "zone": "70",
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 100 and 160E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 70"
+        },
+        {
+          "zone": "71",
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 160E and 140W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 71"
+        },
+        {
+          "zone": "72",
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 140 and 80W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 72"
+        },
+        {
+          "zone": "73",
+          "pas": null,
+          "prefix": null,
+          "boundary": "north of 80S and between 80 and 20W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 73"
+        },
+        {
+          "zone": "74",
+          "pas": null,
+          "prefix": null,
+          "boundary": "between 80 and 90S South Pole",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 74"
+        }
+      ]
+    },
+    "14": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "EK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "15": {
+      "zones": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "75"
+      ],
+      "parts": [
+        {
+          "zone": "21",
+          "pas": null,
+          "prefix": "UA9/0",
+          "boundary": "betwwen 60 and 80N and between 75 and 90E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 21"
+        },
+        {
+          "zone": "22",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60 and 80N and between 90 and 110E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 22"
+        },
+        {
+          "zone": "23",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60and 80N and between 110 and 135E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 23"
+        },
+        {
+          "zone": "24",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60 and 80N and between 135 and 155E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 24"
+        },
+        {
+          "zone": "25",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "between 60 and 80N and between 155 and 170E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 25"
+        },
+        {
+          "zone": "26",
+          "pas": null,
+          "prefix": "Uaà",
+          "boundary": "between 60 and 80N and east of 170E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 26"
+        },
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "UA9/0",
+          "boundary": "south of 60N and between 75 and 90E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 31"
+        },
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "UA8T",
+          "boundary": "west of 110E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 32"
+        },
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 90 and 110E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 32"
+        },
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "UA8V",
+          "boundary": "east of 110E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 33"
+        },
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 110 and 135E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 33"
+        },
+        {
+          "zone": "34",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 135 and 155E including Primor’ye and Sakhalin but excluding the Kurils",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 34"
+        },
+        {
+          "zone": "35",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "south of 60N and between 155 and 170E including the Kurils",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 35"
+        },
+        {
+          "zone": "75",
+          "pas": null,
+          "prefix": "UA0",
+          "boundary": "Severnaya Zemlya north of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 75"
+        }
+      ]
+    },
+    "16": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "ZL9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "17": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "YV0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "18": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "4J",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "20": {
+      "zones": [
+        "61"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        }
+      ]
+    },
+    "21": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "EA6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "22": {
+      "zones": [
+        "64"
+      ],
+      "parts": [
+        {
+          "zone": "64",
+          "pas": null,
+          "prefix": "KC6/T8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 64"
+        }
+      ]
+    },
+    "24": {
+      "zones": [
+        "67"
+      ],
+      "parts": [
+        {
+          "zone": "67",
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 67"
+        }
+      ]
+    },
+    "27": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "EU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "29": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "EA8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 36"
+        }
+      ]
+    },
+    "31": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "T31",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "32": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "EA9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "33": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "VQ9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "34": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "ZL7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "35": {
+      "zones": [
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "36": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "FO8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 10"
+        }
+      ]
+    },
+    "37": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "TI9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "38": {
+      "zones": [
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "40": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "SV9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "41": {
+      "zones": [
+        "68"
+      ],
+      "parts": [
+        {
+          "zone": "68",
+          "pas": null,
+          "prefix": "FT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 68"
+        }
+      ]
+    },
+    "43": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "KP5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "45": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "SV5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "46": {
+      "zones": [
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "9M6/8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "47": {
+      "zones": [
+        "63",
+        "78"
+      ],
+      "parts": [
+        {
+          "zone": "63",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63"
+        },
+        {
+          "zone": "78",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": "Sala y Gomez",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 78"
+        }
+      ]
+    },
+    "48": {
+      "zones": [
+        "61",
+        "63"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "T32",
+          "boundary": "Northern Line Islands only",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        },
+        {
+          "zone": "63",
+          "pas": null,
+          "prefix": "T32",
+          "boundary": "Central & Southern Line Islands",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63"
+        }
+      ]
+    },
+    "49": {
+      "zones": [
+        "47"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "3C",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        }
+      ]
+    },
+    "50": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "XE",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 10"
+        }
+      ]
+    },
+    "51": {
+      "zones": [
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "E3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "52": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "ES",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "53": {
+      "zones": [
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "ET",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "54": {
+      "zones": [
+        "19",
+        "20",
+        "29",
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "19",
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": "between 60 and 80N and west of 50E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 19"
+        },
+        {
+          "zone": "19",
+          "pas": null,
+          "prefix": "UA9",
+          "boundary": "between 60 and 80N and west of 50E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 19"
+        },
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": "between 60 and 80N and east of 50E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 20"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UA1",
+          "boundary": "south of 60N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UA3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UA4",
+          "boundary": "west of 50E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        },
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UA6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        },
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "UA4",
+          "boundary": "east of 50E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30"
+        }
+      ]
+    },
+    "56": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 13"
+        }
+      ]
+    },
+    "60": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "C6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "61": {
+      "zones": [
+        "20",
+        "75"
+      ],
+      "parts": [
+        {
+          "zone": "20",
+          "pas": null,
+          "prefix": "R1F",
+          "boundary": "south of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 20"
+        },
+        {
+          "zone": "75",
+          "pas": null,
+          "prefix": "R1F",
+          "boundary": "north of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 75"
+        }
+      ]
+    },
+    "62": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "8P",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "63": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "FY",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "64": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "VP9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "65": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "VP2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "66": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "V3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "69": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "ZF",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "70": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "CO",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "71": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "HC8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "72": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "HI",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "74": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "YS",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "75": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "4L",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "76": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "TG",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "77": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "J3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "78": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "HH",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "79": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "FG",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "80": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "HR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "82": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "6Y",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "84": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "FM",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "85": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "PJ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "86": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "YN",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "88": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "HP",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "89": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "VP5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "90": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "9Y",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "91": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "P4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "94": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "V2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "95": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "J7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "96": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "VP2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "97": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "J6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "98": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "J8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "99": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "100": {
+      "zones": [
+        "14",
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "LU",
+          "boundary": "north of 40S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "LU",
+          "boundary": "south of 40S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 16"
+        }
+      ]
+    },
+    "103": {
+      "zones": [
+        "64"
+      ],
+      "parts": [
+        {
+          "zone": "64",
+          "pas": null,
+          "prefix": "KH2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 64"
+        }
+      ]
+    },
+    "104": {
+      "zones": [
+        "12",
+        "13",
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "CP",
+          "boundary": "north of 16,5S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        },
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "CP",
+          "boundary": "east of 60W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 13"
+        },
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CP",
+          "boundary": "south of 16,5S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        }
+      ]
+    },
+    "105": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "KG4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "106": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "GU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "107": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "3X",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "108": {
+      "zones": [
+        "12",
+        "13",
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "PY",
+          "boundary": "west of 60W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        },
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "PY",
+          "boundary": "north of 16,5S & east of 60W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 13"
+        },
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "PY",
+          "boundary": "south of 16,5S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 15"
+        }
+      ]
+    },
+    "109": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "J5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "110": {
+      "zones": [
+        "61"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH6/7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        }
+      ]
+    },
+    "111": {
+      "zones": [
+        "68"
+      ],
+      "parts": [
+        {
+          "zone": "68",
+          "pas": null,
+          "prefix": "VK0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 68"
+        }
+      ]
+    },
+    "112": {
+      "zones": [
+        "14",
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CE",
+          "boundary": "north of 40S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        },
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "CE",
+          "boundary": "south of 40S",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 16"
+        }
+      ]
+    },
+    "114": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "GD",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "116": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "HK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "117": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "4U",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "118": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "JX",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "120": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "HC",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "122": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "GJ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "123": {
+      "zones": [
+        "61"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        }
+      ]
+    },
+    "124": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "125": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        }
+      ]
+    },
+    "126": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UA2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "129": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "8R",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "130": {
+      "zones": [
+        "29",
+        "30",
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UN",
+          "boundary": "west of 50E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        },
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "UN",
+          "boundary": "between 50 and 75E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30"
+        },
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "UN",
+          "boundary": "east of 75E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 31"
+        }
+      ]
+    },
+    "131": {
+      "zones": [
+        "68"
+      ],
+      "parts": [
+        {
+          "zone": "68",
+          "pas": null,
+          "prefix": "FT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 68"
+        }
+      ]
+    },
+    "132": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "ZP",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        }
+      ]
+    },
+    "133": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "ZL8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "134": {
+      "zones": [
+        "61"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        }
+      ]
+    },
+    "135": {
+      "zones": [
+        "30",
+        "31"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "EX",
+          "boundary": "west of 75E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30"
+        },
+        {
+          "zone": "31",
+          "pas": null,
+          "prefix": "EX",
+          "boundary": "east of 75E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 31"
+        }
+      ]
+    },
+    "136": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "OA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "137": {
+      "zones": [
+        "44"
+      ],
+      "parts": [
+        {
+          "zone": "44",
+          "pas": null,
+          "prefix": "HL",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+        }
+      ]
+    },
+    "138": {
+      "zones": [
+        "61"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH7K",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        }
+      ]
+    },
+    "140": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "PZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "141": {
+      "zones": [
+        "16"
+      ],
+      "parts": [
+        {
+          "zone": "16",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 16"
+        }
+      ]
+    },
+    "142": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "143": {
+      "zones": [
+        "49"
+      ],
+      "parts": [
+        {
+          "zone": "49",
+          "pas": null,
+          "prefix": "XW",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49"
+        }
+      ]
+    },
+    "144": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CX",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        }
+      ]
+    },
+    "145": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "YL",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "146": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "LY",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "147": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "148": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "YV",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "149": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "CU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 36"
+        }
+      ]
+    },
+    "150": {
+      "zones": [
+        "55",
+        "58",
+        "59"
+      ],
+      "parts": [
+        {
+          "zone": "55",
+          "pas": null,
+          "prefix": "VK4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 55"
+        },
+        {
+          "zone": "55",
+          "pas": null,
+          "prefix": "VK8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 55"
+        },
+        {
+          "zone": "58",
+          "pas": null,
+          "prefix": "VK6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 58"
+        },
+        {
+          "zone": "59",
+          "pas": null,
+          "prefix": "VK1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 59"
+        },
+        {
+          "zone": "59",
+          "pas": null,
+          "prefix": "VK2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 59"
+        },
+        {
+          "zone": "59",
+          "pas": null,
+          "prefix": "VK3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 59"
+        },
+        {
+          "zone": "59",
+          "pas": null,
+          "prefix": "VK5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 59"
+        },
+        {
+          "zone": "59",
+          "pas": null,
+          "prefix": "VK7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 59"
+        }
+      ]
+    },
+    "151": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "R1M",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "152": {
+      "zones": [
+        "44"
+      ],
+      "parts": [
+        {
+          "zone": "44",
+          "pas": null,
+          "prefix": "XX9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+        }
+      ]
+    },
+    "153": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "VK0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "157": {
+      "zones": [
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "C2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "158": {
+      "zones": [
+        "56"
+      ],
+      "parts": [
+        {
+          "zone": "56",
+          "pas": null,
+          "prefix": "YJ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 56"
+        }
+      ]
+    },
+    "159": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "8Q",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "160": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "A3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "161": {
+      "zones": [
+        "12"
+      ],
+      "parts": [
+        {
+          "zone": "12",
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 12"
+        }
+      ]
+    },
+    "162": {
+      "zones": [
+        "56"
+      ],
+      "parts": [
+        {
+          "zone": "56",
+          "pas": null,
+          "prefix": "FK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 56"
+        }
+      ]
+    },
+    "163": {
+      "zones": [
+        "51"
+      ],
+      "parts": [
+        {
+          "zone": "51",
+          "pas": null,
+          "prefix": "P2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 51"
+        }
+      ]
+    },
+    "165": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "3B8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "166": {
+      "zones": [
+        "64"
+      ],
+      "parts": [
+        {
+          "zone": "64",
+          "pas": null,
+          "prefix": "KH0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 64"
+        }
+      ]
+    },
+    "167": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "OJ0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "168": {
+      "zones": [
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "V7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "169": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "FH",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "170": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "ZL",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "171": {
+      "zones": [
+        "56"
+      ],
+      "parts": [
+        {
+          "zone": "56",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 56"
+        }
+      ]
+    },
+    "172": {
+      "zones": [
+        "63"
+      ],
+      "parts": [
+        {
+          "zone": "63",
+          "pas": null,
+          "prefix": "VR6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63"
+        }
+      ]
+    },
+    "173": {
+      "zones": [
+        "64",
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "64",
+          "pas": null,
+          "prefix": "V6",
+          "boundary": "west of 150E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 64"
+        },
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "V6",
+          "boundary": "east of 150E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "174": {
+      "zones": [
+        "61"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        }
+      ]
+    },
+    "175": {
+      "zones": [
+        "63"
+      ],
+      "parts": [
+        {
+          "zone": "63",
+          "pas": null,
+          "prefix": "FO",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63"
+        }
+      ]
+    },
+    "177": {
+      "zones": [
+        "90"
+      ],
+      "parts": [
+        {
+          "zone": "90",
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 90"
+        }
+      ]
+    },
+    "179": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "ER",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "180": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "SV",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "181": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "C9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "182": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "KP1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "185": {
+      "zones": [
+        "51"
+      ],
+      "parts": [
+        {
+          "zone": "51",
+          "pas": null,
+          "prefix": "H4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 51"
+        }
+      ]
+    },
+    "187": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "5U",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "188": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "ZK2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "189": {
+      "zones": [
+        "60"
+      ],
+      "parts": [
+        {
+          "zone": "60",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 60"
+        }
+      ]
+    },
+    "190": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "5W",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "191": {
+      "zones": [
+        "62",
+        "63"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "west of 160W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        },
+        {
+          "zone": "63",
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "east of 160W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63"
+        }
+      ]
+    },
+    "192": {
+      "zones": [
+        "45"
+      ],
+      "parts": [
+        {
+          "zone": "45",
+          "pas": null,
+          "prefix": "JD1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 45"
+        }
+      ]
+    },
+    "195": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "3C0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "197": {
+      "zones": [
+        "61",
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "61",
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": "Palmyra but not Jarvis",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 61"
+        },
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "KH5",
+          "boundary": "Jarvis",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "199": {
+      "zones": [
+        "72"
+      ],
+      "parts": [
+        {
+          "zone": "72",
+          "pas": null,
+          "prefix": "3Y",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 72"
+        }
+      ]
+    },
+    "201": {
+      "zones": [
+        "57"
+      ],
+      "parts": [
+        {
+          "zone": "57",
+          "pas": null,
+          "prefix": "ZS8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+        }
+      ]
+    },
+    "202": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "KP3/4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "203": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "C3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "204": {
+      "zones": [
+        "10"
+      ],
+      "parts": [
+        {
+          "zone": "10",
+          "pas": null,
+          "prefix": "XF4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 10"
+        }
+      ]
+    },
+    "205": {
+      "zones": [
+        "66"
+      ],
+      "parts": [
+        {
+          "zone": "66",
+          "pas": null,
+          "prefix": "ZD8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 66"
+        }
+      ]
+    },
+    "206": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "OE",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "207": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "3B9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "209": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "ON",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "211": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "CY0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        }
+      ]
+    },
+    "212": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "LZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "213": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "FJ/FS",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "214": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "TK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "215": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "5B",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "216": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "HK0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "217": {
+      "zones": [
+        "14"
+      ],
+      "parts": [
+        {
+          "zone": "14",
+          "pas": null,
+          "prefix": "CE0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 14"
+        }
+      ]
+    },
+    "219": {
+      "zones": [
+        "47"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "S9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        }
+      ]
+    },
+    "221": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "OZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "222": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "OY",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "224": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "OH",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "225": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "IS",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "227": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "F",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "230": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "DL",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "232": {
+      "zones": [
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "T5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "233": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "ZB",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "234": {
+      "zones": [
+        "62",
+        "63"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "west of 160W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        },
+        {
+          "zone": "63",
+          "pas": null,
+          "prefix": "ZK1",
+          "boundary": "east of 160W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 63"
+        }
+      ]
+    },
+    "235": {
+      "zones": [
+        "73"
+      ],
+      "parts": [
+        {
+          "zone": "73",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 73"
+        }
+      ]
+    },
+    "236": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "SV",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "237": {
+      "zones": [
+        "5",
+        "75"
+      ],
+      "parts": [
+        {
+          "zone": "5",
+          "pas": null,
+          "prefix": "OX",
+          "boundary": "south of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 5"
+        },
+        {
+          "zone": "75",
+          "pas": null,
+          "prefix": "OX",
+          "boundary": "north of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 75"
+        }
+      ]
+    },
+    "238": {
+      "zones": [
+        "73"
+      ],
+      "parts": [
+        {
+          "zone": "73",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 73"
+        }
+      ]
+    },
+    "239": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "HA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "240": {
+      "zones": [
+        "73"
+      ],
+      "parts": [
+        {
+          "zone": "73",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 73"
+        }
+      ]
+    },
+    "241": {
+      "zones": [
+        "73"
+      ],
+      "parts": [
+        {
+          "zone": "73",
+          "pas": null,
+          "prefix": "VP8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 73"
+        }
+      ]
+    },
+    "242": {
+      "zones": [
+        "17"
+      ],
+      "parts": [
+        {
+          "zone": "17",
+          "pas": null,
+          "prefix": "TF",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 17"
+        }
+      ]
+    },
+    "244": {
+      "zones": [
+        "47",
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "ST0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        },
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "ST0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "245": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "EI",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "246": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "1A0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "247": {
+      "zones": [
+        "50"
+      ],
+      "parts": [
+        {
+          "zone": "50",
+          "pas": null,
+          "prefix": "1S",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 50"
+        }
+      ]
+    },
+    "248": {
+      "zones": [
+        "28",
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "I",
+          "boundary": "excluding IG9 & IH9",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        },
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "IG9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        },
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "IH9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "249": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "V4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "250": {
+      "zones": [
+        "66"
+      ],
+      "parts": [
+        {
+          "zone": "66",
+          "pas": null,
+          "prefix": "ZD7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 66"
+        }
+      ]
+    },
+    "251": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "HB0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "252": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "CY9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        }
+      ]
+    },
+    "253": {
+      "zones": [
+        "13"
+      ],
+      "parts": [
+        {
+          "zone": "13",
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 13"
+        }
+      ]
+    },
+    "254": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "LX",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "255": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "PJ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "256": {
+      "zones": [
+        "36"
+      ],
+      "parts": [
+        {
+          "zone": "36",
+          "pas": null,
+          "prefix": "CT3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 36"
+        }
+      ]
+    },
+    "257": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "9H",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "259": {
+      "zones": [
+        "18",
+        "75"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "JW",
+          "boundary": "south of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        },
+        {
+          "zone": "75",
+          "pas": null,
+          "prefix": "JW",
+          "boundary": "north of 80N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 75"
+        }
+      ]
+    },
+    "260": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "3A",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "262": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "EY",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30"
+        }
+      ]
+    },
+    "263": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "PA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "265": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "GI",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "266": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "LA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "269": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "SP",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "270": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "ZK3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "272": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "CT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "273": {
+      "zones": [
+        "15"
+      ],
+      "parts": [
+        {
+          "zone": "15",
+          "pas": null,
+          "prefix": "PY0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 15"
+        }
+      ]
+    },
+    "274": {
+      "zones": [
+        "66"
+      ],
+      "parts": [
+        {
+          "zone": "66",
+          "pas": null,
+          "prefix": "ZD9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 66"
+        }
+      ]
+    },
+    "275": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "YO",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "276": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "277": {
+      "zones": [
+        "9"
+      ],
+      "parts": [
+        {
+          "zone": "9",
+          "pas": null,
+          "prefix": "FP",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 9"
+        }
+      ]
+    },
+    "278": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "T7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "279": {
+      "zones": [
+        "27"
+      ],
+      "parts": [
+        {
+          "zone": "27",
+          "pas": null,
+          "prefix": "GM",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 27"
+        }
+      ]
+    },
+    "280": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "EZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30"
+        }
+      ]
+    },
+    "281": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "EA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "282": {
+      "zones": [
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "T2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "283": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "ZC4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "284": {
+      "zones": [
+        "18"
+      ],
+      "parts": [
+        {
+          "zone": "18",
+          "pas": null,
+          "prefix": "SM",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 18"
+        }
+      ]
+    },
+    "285": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "KP2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "286": {
+      "zones": [
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "5X",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "287": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "HB",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "288": {
+      "zones": [
+        "29"
+      ],
+      "parts": [
+        {
+          "zone": "29",
+          "pas": null,
+          "prefix": "UR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 29"
+        }
+      ]
+    },
+    "291": {
+      "zones": [
+        "6",
+        "7",
+        "8"
+      ],
+      "parts": [
+        {
+          "zone": "6",
+          "pas": "CA",
+          "prefix": "W6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "ID",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "NV",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "OR",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "WA",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "AZ",
+          "prefix": "W7",
+          "boundary": "west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "MT",
+          "prefix": "W7",
+          "boundary": "west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "6",
+          "pas": "UT",
+          "prefix": "W7",
+          "boundary": "west of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 6"
+        },
+        {
+          "zone": "7",
+          "pas": "TN",
+          "prefix": "W4",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "NM",
+          "prefix": "W5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "OK",
+          "prefix": "W5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "TX",
+          "prefix": "W5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "AR",
+          "prefix": "W5",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "LA",
+          "prefix": "W5",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "MS",
+          "prefix": "W5",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "WY",
+          "prefix": "W7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "AZ",
+          "prefix": "W7",
+          "boundary": "east of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "MT",
+          "prefix": "W7",
+          "boundary": "east of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "UT",
+          "prefix": "W7",
+          "boundary": "east of 110W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "MI",
+          "prefix": "W8",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "IL",
+          "prefix": "W9",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "WI",
+          "prefix": "W9",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "CO",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "IA",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "KS",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "MN",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "NE",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "ND",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "SD",
+          "prefix": "W0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "7",
+          "pas": "MO",
+          "prefix": "Wà",
+          "boundary": "west of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 7"
+        },
+        {
+          "zone": "8",
+          "pas": "CT",
+          "prefix": "W1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "ME",
+          "prefix": "W1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "MA",
+          "prefix": "W1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "NH",
+          "prefix": "W1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "RI",
+          "prefix": "W1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "VT",
+          "prefix": "W1",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "NJ",
+          "prefix": "W2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "NY",
+          "prefix": "W2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "DE",
+          "prefix": "W3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "MD",
+          "prefix": "W3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "PA",
+          "prefix": "W3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "AL",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "FL",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "GA",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "KY",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "NC",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "SC",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "VA",
+          "prefix": "W4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "TN",
+          "prefix": "W4",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "AR",
+          "prefix": "W5",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "LA",
+          "prefix": "W5",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "MS",
+          "prefix": "W5",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "OH",
+          "prefix": "W8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "WV",
+          "prefix": "W8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "MI",
+          "prefix": "W8",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "IN",
+          "prefix": "W9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "IL",
+          "prefix": "W9",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "WI",
+          "prefix": "W9",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        },
+        {
+          "zone": "8",
+          "pas": "MO",
+          "prefix": "W0",
+          "boundary": "east of 90W",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 8"
+        }
+      ]
+    },
+    "292": {
+      "zones": [
+        "30"
+      ],
+      "parts": [
+        {
+          "zone": "30",
+          "pas": null,
+          "prefix": "UK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 30"
+        }
+      ]
+    },
+    "293": {
+      "zones": [
+        "49"
+      ],
+      "parts": [
+        {
+          "zone": "49",
+          "pas": null,
+          "prefix": "XV",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49"
+        }
+      ]
+    },
+    "295": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "HV",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "296": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "YU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "297": {
+      "zones": [
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "KH9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "298": {
+      "zones": [
+        "62"
+      ],
+      "parts": [
+        {
+          "zone": "62",
+          "pas": null,
+          "prefix": "FW",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 62"
+        }
+      ]
+    },
+    "299": {
+      "zones": [
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "9M2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "301": {
+      "zones": [
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "T30",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "302": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "S0",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "303": {
+      "zones": [
+        "55"
+      ],
+      "parts": [
+        {
+          "zone": "55",
+          "pas": null,
+          "prefix": "VK9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 55"
+        }
+      ]
+    },
+    "304": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "A9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "305": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "S2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "306": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "A5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "308": {
+      "zones": [
+        "11"
+      ],
+      "parts": [
+        {
+          "zone": "11",
+          "pas": null,
+          "prefix": "TI",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-1, zone 11"
+        }
+      ]
+    },
+    "309": {
+      "zones": [
+        "49"
+      ],
+      "parts": [
+        {
+          "zone": "49",
+          "pas": null,
+          "prefix": "XZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49"
+        }
+      ]
+    },
+    "312": {
+      "zones": [
+        "49"
+      ],
+      "parts": [
+        {
+          "zone": "49",
+          "pas": null,
+          "prefix": "XU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49"
+        }
+      ]
+    },
+    "315": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "4S",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "318": {
+      "zones": [
+        "33",
+        "42",
+        "43",
+        "44"
+      ],
+      "parts": [
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "north of 44N",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 33"
+        },
+        {
+          "zone": "42",
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "west of 90E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 42"
+        },
+        {
+          "zone": "43",
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "between 90 and 110E, excluding Hainan",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 43"
+        },
+        {
+          "zone": "44",
+          "pas": null,
+          "prefix": "BY",
+          "boundary": "south of 44N and east of 110E, including Hainan",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+        }
+      ]
+    },
+    "321": {
+      "zones": [
+        "44"
+      ],
+      "parts": [
+        {
+          "zone": "44",
+          "pas": null,
+          "prefix": "VR2/VS6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+        }
+      ]
+    },
+    "324": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "VU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "327": {
+      "zones": [
+        "51",
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "51",
+          "pas": null,
+          "prefix": "YB8/9",
+          "boundary": "east of 130E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 51"
+        },
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "YB1-7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        },
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "YB8/9",
+          "boundary": "west of 130E",
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "330": {
+      "zones": [
+        "40"
+      ],
+      "parts": [
+        {
+          "zone": "40",
+          "pas": null,
+          "prefix": "EP",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 40"
+        }
+      ]
+    },
+    "333": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "YI",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "336": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "4X",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "339": {
+      "zones": [
+        "45"
+      ],
+      "parts": [
+        {
+          "zone": "45",
+          "pas": null,
+          "prefix": "JA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 45"
+        }
+      ]
+    },
+    "342": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "JY",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "344": {
+      "zones": [
+        "44"
+      ],
+      "parts": [
+        {
+          "zone": "44",
+          "pas": null,
+          "prefix": "P5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+        }
+      ]
+    },
+    "345": {
+      "zones": [
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "V8",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "348": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "9K",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "354": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "OD",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "363": {
+      "zones": [
+        "32",
+        "33"
+      ],
+      "parts": [
+        {
+          "zone": "32",
+          "pas": null,
+          "prefix": "JT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 32"
+        },
+        {
+          "zone": "33",
+          "pas": null,
+          "prefix": "JT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 33"
+        }
+      ]
+    },
+    "369": {
+      "zones": [
+        "42"
+      ],
+      "parts": [
+        {
+          "zone": "42",
+          "pas": null,
+          "prefix": "9N",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 42"
+        }
+      ]
+    },
+    "370": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "A4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "372": {
+      "zones": [
+        "41"
+      ],
+      "parts": [
+        {
+          "zone": "41",
+          "pas": null,
+          "prefix": "AP",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 41"
+        }
+      ]
+    },
+    "375": {
+      "zones": [
+        "50"
+      ],
+      "parts": [
+        {
+          "zone": "50",
+          "pas": null,
+          "prefix": "DU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 50"
+        }
+      ]
+    },
+    "376": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "A7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "378": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "HZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "379": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "S7",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "381": {
+      "zones": [
+        "54"
+      ],
+      "parts": [
+        {
+          "zone": "54",
+          "pas": null,
+          "prefix": "9V",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 54"
+        }
+      ]
+    },
+    "382": {
+      "zones": [
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "J2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "384": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "YK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "386": {
+      "zones": [
+        "44"
+      ],
+      "parts": [
+        {
+          "zone": "44",
+          "pas": null,
+          "prefix": "BV",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 44"
+        }
+      ]
+    },
+    "387": {
+      "zones": [
+        "49"
+      ],
+      "parts": [
+        {
+          "zone": "49",
+          "pas": null,
+          "prefix": "HS",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 49"
+        }
+      ]
+    },
+    "390": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "TA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "391": {
+      "zones": [
+        "39"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "A6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        }
+      ]
+    },
+    "400": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "7X",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "401": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "D2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "402": {
+      "zones": [
+        "57"
+      ],
+      "parts": [
+        {
+          "zone": "57",
+          "pas": null,
+          "prefix": "A2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+        }
+      ]
+    },
+    "404": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "9U",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "406": {
+      "zones": [
+        "47"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "1J",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        }
+      ]
+    },
+    "408": {
+      "zones": [
+        "47"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "TL",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        }
+      ]
+    },
+    "409": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "D4",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "410": {
+      "zones": [
+        "47"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "TT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        }
+      ]
+    },
+    "411": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "D6",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "412": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "TN",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "414": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "9Q",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "416": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "TY",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "420": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "TR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "422": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "C5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "424": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "9G",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "428": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "TU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "430": {
+      "zones": [
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "5Z",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "432": {
+      "zones": [
+        "57"
+      ],
+      "parts": [
+        {
+          "zone": "57",
+          "pas": null,
+          "prefix": "7P",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+        }
+      ]
+    },
+    "434": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "EL",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "436": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "5A",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 38"
+        }
+      ]
+    },
+    "438": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "5R",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "440": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "7Q",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "442": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "TZ",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "444": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "5T",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "446": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "CN",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "450": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "5N",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "452": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "Z2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "453": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "FR",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "454": {
+      "zones": [
+        "52"
+      ],
+      "parts": [
+        {
+          "zone": "52",
+          "pas": null,
+          "prefix": "9X",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 52"
+        }
+      ]
+    },
+    "456": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "6W",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "458": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "9L",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "460": {
+      "zones": [
+        "56"
+      ],
+      "parts": [
+        {
+          "zone": "56",
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 56"
+        }
+      ]
+    },
+    "462": {
+      "zones": [
+        "57"
+      ],
+      "parts": [
+        {
+          "zone": "57",
+          "pas": null,
+          "prefix": "ZS",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+        }
+      ]
+    },
+    "464": {
+      "zones": [
+        "57"
+      ],
+      "parts": [
+        {
+          "zone": "57",
+          "pas": null,
+          "prefix": "V5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+        }
+      ]
+    },
+    "466": {
+      "zones": [
+        "47",
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "47",
+          "pas": null,
+          "prefix": "ST",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 47"
+        },
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "ST",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "468": {
+      "zones": [
+        "57"
+      ],
+      "parts": [
+        {
+          "zone": "57",
+          "pas": null,
+          "prefix": "3DA",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 57"
+        }
+      ]
+    },
+    "470": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "5H",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "474": {
+      "zones": [
+        "37"
+      ],
+      "parts": [
+        {
+          "zone": "37",
+          "pas": null,
+          "prefix": "3V",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 37"
+        }
+      ]
+    },
+    "478": {
+      "zones": [
+        "38"
+      ],
+      "parts": [
+        {
+          "zone": "38",
+          "pas": null,
+          "prefix": "SU",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 38"
+        }
+      ]
+    },
+    "480": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "XT",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "482": {
+      "zones": [
+        "53"
+      ],
+      "parts": [
+        {
+          "zone": "53",
+          "pas": null,
+          "prefix": "9J",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 53"
+        }
+      ]
+    },
+    "483": {
+      "zones": [
+        "46"
+      ],
+      "parts": [
+        {
+          "zone": "46",
+          "pas": null,
+          "prefix": "5V",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 46"
+        }
+      ]
+    },
+    "489": {
+      "zones": [
+        "56"
+      ],
+      "parts": [
+        {
+          "zone": "56",
+          "pas": null,
+          "prefix": "3D2",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 56"
+        }
+      ]
+    },
+    "490": {
+      "zones": [
+        "65"
+      ],
+      "parts": [
+        {
+          "zone": "65",
+          "pas": null,
+          "prefix": "T33",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-3, zone 65"
+        }
+      ]
+    },
+    "492": {
+      "zones": [
+        "39",
+        "48"
+      ],
+      "parts": [
+        {
+          "zone": "39",
+          "pas": null,
+          "prefix": "7O",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 39"
+        },
+        {
+          "zone": "48",
+          "pas": null,
+          "prefix": "7O",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 48"
+        }
+      ]
+    },
+    "497": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "9A",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "499": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "S5",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "501": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "T9",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "502": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "Z3",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "503": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "OK",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    },
+    "504": {
+      "zones": [
+        "28"
+      ],
+      "parts": [
+        {
+          "zone": "28",
+          "pas": null,
+          "prefix": "OM",
+          "boundary": null,
+          "source": "IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-2, zone 28"
+        }
+      ]
+    }
+  }
+}
