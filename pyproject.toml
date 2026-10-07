@@ -36,7 +36,7 @@ Issues = "https://github.com/qso-graph/itu-zones-mcp/issues"
 itu-zones-mcp = "itu_zones_mcp.server:main"
 
 [dependency-groups]
-dev = ["pytest>=8", "jsonschema>=4", "adif-mcp>=1.2"]
+dev = ["pytest>=8", "jsonschema>=4", "adif-mcp>=1.2", "pypdf>=5"]
 
 [build-system]
 requires = ["hatchling"]
