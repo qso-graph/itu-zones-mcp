@@ -1,6 +1,6 @@
 [project]
 name = "itu-zones-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "ITU zones as the IARU publishes them for amateur use, in ADIF's DXCC and subdivision codes"
 readme = "README.md"
 license = {text = "GPL-3.0-or-later"}
