@@ -8,6 +8,7 @@
 BEGIN;
 DROP SCHEMA IF EXISTS itu_zones CASCADE;
 CREATE SCHEMA itu_zones;
+COMMENT ON SCHEMA itu_zones IS 'ITU zones as International Amateur Radio Union (IARU), from the ITU''s CIRAF zones publishes them (IARU Region 1 HF Managers Handbook v8.2, chapter 9.8, "Definition of ITU-Zones when used by radio amateurs", edition 2000-11 (chapter 9.8 as printed in Handbook v8.2, 2016)). The owner is the authority for this list: where ADIF''s tables also carry a value for it (e.g. the CQ Zone or ITU Zone columns of adif.primary_administrative_subdivision), this schema is the answer and ADIF''s is a copy.';
 
 -- Where every fact here came from: SOURCE.json (owner, document URL, SHA-256).
 CREATE TABLE itu_zones.source (
@@ -598,6 +599,9 @@ INSERT INTO itu_zones.code VALUES ('itu_zones', 88, '88', NULL, NULL, NULL, NULL
 INSERT INTO itu_zones.code VALUES ('itu_zones', 89, '89', NULL, NULL, NULL, NULL, NULL, 'IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 89', 'No entry in this edition');
 INSERT INTO itu_zones.code VALUES ('itu_zones', 90, '90', NULL, NULL, NULL, NULL, NULL, 'IARURegion1HFManagerHandbook8.2.1.pdf, chapter 9.8, page 9.8-4, zone 90', '''JD1 (Minami Torishima)'' mapped to 177.');
 INSERT INTO itu_zones.cover (list, seq, n, dxcc, pas, prefix, boundary) VALUES ('itu_zones', 90, 1, 177, NULL, 'JD1', NULL);
+
+COMMENT ON TABLE itu_zones.code IS 'Codes as the owner publishes them. ITU zones as International Amateur Radio Union (IARU), from the ITU''s CIRAF zones publishes them (IARU Region 1 HF Managers Handbook v8.2, chapter 9.8, "Definition of ITU-Zones when used by radio amateurs", edition 2000-11 (chapter 9.8 as printed in Handbook v8.2, 2016)). The owner is the authority for this list: where ADIF''s tables also carry a value for it (e.g. the CQ Zone or ITU Zone columns of adif.primary_administrative_subdivision), this schema is the answer and ADIF''s is a copy.';
+COMMENT ON TABLE itu_zones.cover IS 'What each code covers, in ADIF codes; boundary is the owner wording. ITU zones as International Amateur Radio Union (IARU), from the ITU''s CIRAF zones publishes them (IARU Region 1 HF Managers Handbook v8.2, chapter 9.8, "Definition of ITU-Zones when used by radio amateurs", edition 2000-11 (chapter 9.8 as printed in Handbook v8.2, 2016)). The owner is the authority for this list: where ADIF''s tables also carry a value for it (e.g. the CQ Zone or ITU Zone columns of adif.primary_administrative_subdivision), this schema is the answer and ADIF''s is a copy.';
 
 DO $$ BEGIN IF EXISTS (SELECT 1 FROM pg_roles WHERE rolname = 'ionis_ro') THEN
   GRANT USAGE ON SCHEMA itu_zones TO ionis_ro;
