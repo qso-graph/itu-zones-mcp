@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import asyncio
 
+import pytest
 from fastmcp import Client
+from fastmcp.exceptions import ToolError
 
 from itu_zones_mcp import server
 
@@ -44,12 +46,17 @@ def test_every_answer_names_its_source():
         assert r["source"]["owner"] and r["source"]["url"], name
 
 
-def test_bad_input_is_an_error():
-    assert "error" in call("itu_zones_lookup", {"code": "A B; DROP"})
-    assert "error" in call("itu_zones_search", {"text": "x" * 101})
-    assert "error" in call("itu_zones_codes_for", {"dxcc": 5000})
-    assert "error" in call("itu_zones_codes_for", {"dxcc": 1, "subdivision": "TOOLONG"})
-    assert "error" in call("itu_zones_valid_on", {"code": "6", "on_date": "06.10.2026"})
+def test_bad_input_is_a_flagged_error():
+    """Rejections are flagged now, not returned as successful results (#16)."""
+    for name, args in (
+        ("itu_zones_lookup", {"code": "A B; DROP"}),
+        ("itu_zones_search", {"text": "x" * 101}),
+        ("itu_zones_codes_for", {"dxcc": 5000}),
+        ("itu_zones_codes_for", {"dxcc": 1, "subdivision": "TOOLONG"}),
+        ("itu_zones_valid_on", {"code": "6", "on_date": "06.10.2026"}),
+    ):
+        with pytest.raises(ToolError):
+            call(name, args)
 
 
 def test_unknown_code_is_not_found():
