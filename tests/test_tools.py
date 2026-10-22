@@ -10,7 +10,10 @@ from fastmcp.exceptions import ToolError
 
 from itu_zones_mcp import server
 
-TOOLS = {"get_version_info", "itu_zones_source_info", "itu_zones_lookup", "itu_zones_search", "itu_zones_codes_for", "itu_zones_valid_on"}
+TOOLS = {
+    "get_version_info", "itu_zones_source_info", "itu_zones_lookup",
+    "itu_zones_search", "itu_zones_codes_for", "itu_zones_valid_on",
+}
 
 
 def call(name: str, args: dict | None = None) -> dict:
@@ -39,8 +42,12 @@ def test_source_info_credits_the_owner():
 
 
 def test_every_answer_names_its_source():
-    for name, args in (("itu_zones_lookup", {"code": "6"}), ("itu_zones_search", {"text": "Antarctica"}),
-                       ("itu_zones_codes_for", {"dxcc": 291}), ("itu_zones_valid_on", {"code": "6", "on_date": "2026-10-06"})):
+    for name, args in (
+        ("itu_zones_lookup", {"code": "6"}),
+        ("itu_zones_search", {"text": "Antarctica"}),
+        ("itu_zones_codes_for", {"dxcc": 291}),
+        ("itu_zones_valid_on", {"code": "6", "on_date": "2026-10-06"}),
+    ):
         r = call(name, args)
         assert "error" not in r, (name, r)
         assert r["source"]["owner"] and r["source"]["url"], name

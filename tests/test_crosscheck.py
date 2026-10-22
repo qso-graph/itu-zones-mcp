@@ -1,8 +1,10 @@
-"""Cross-checks: ADIF's own ITU-zone column, and (live, fetched, never stored in the repo) AD1C's country file and ARRL's DXCC list.
+"""Cross-checks: ADIF's own ITU-zone column, and (live, fetched, never stored in
+the repo) AD1C's country file and ARRL's DXCC list.
 
 They are checks, never the source (planning/QSO-GRAPH-REFERENCE-DATA.md): when one of them
-disagrees with The IARU's chapter, The IARU's chapter wins. Every disagreement known today is listed below with the
-reason it stands; a new one fails, so a change on either side is seen and reported, never silently
+disagrees with The IARU's chapter, The IARU's chapter wins. Every disagreement
+known today is listed below with the reason it stands; a new one fails, so a
+change on either side is seen and reported, never silently
 picked. docs/TRANSCRIPTION.md explains each.
 """
 
@@ -46,9 +48,11 @@ def adif_disagreements() -> dict[str, tuple[list[int], list[int]]]:
             if c["pas"]:
                 ours.setdefault((c["pas"], c["dxcc"]), set()).add(int(r["code"]))
     spec = files("adif_mcp").joinpath("resources", "spec", "317")
-    pas = json.loads(spec.joinpath("enumerations_primary_administrative_subdivision.json").read_text(encoding="utf-8"))
+    pas_file = spec.joinpath("enumerations_primary_administrative_subdivision.json")
+    pas = json.loads(pas_file.read_text(encoding="utf-8"))
     out = {}
-    for r in pas["Adif"]["Enumerations"]["Primary_Administrative_Subdivision"]["Records"].values():
+    records = pas["Adif"]["Enumerations"]["Primary_Administrative_Subdivision"]
+    for r in records["Records"].values():
         key = (r["Code"], int(r["DXCC Entity Code"]))
         if r.get("Deleted") == "true" or not r.get(COLUMN) or key not in ours:
             continue
@@ -62,7 +66,8 @@ def cty_disagreements() -> dict[str, tuple[int, list[int]]]:
     """Covers whose prefix AD1C's cty.dat puts in a zone the owner doesn't give that entity."""
     prefixes: dict[str, int] = {}
     entity_zone = None
-    req = urllib.request.Request(CTY_URL, headers={"User-Agent": "qso-graph reference-data check"})
+    req = urllib.request.Request(
+        CTY_URL, headers={"User-Agent": "qso-graph reference-data check"})
     with urllib.request.urlopen(req, timeout=60) as resp:  # https, AD1C
         cty = resp.read().decode("latin-1")
     for line in cty.splitlines():
@@ -74,7 +79,8 @@ def cty_disagreements() -> dict[str, tuple[int, list[int]]]:
             if not item or item.startswith("="):
                 continue
             m = CTY_OVERRIDE.search(item)
-            prefixes[re.match(r"[A-Z0-9/]+", item).group()] = int(m.group(1)) if m else entity_zone
+            prefix = re.match(r"[A-Z0-9/]+", item).group()
+            prefixes[prefix] = int(m.group(1)) if m else entity_zone
     # Only prefixes the owner uses for one entity: a shared prefix (FO, VK9, 3Y ...) names
     # different islands in different zones, and AD1C's entry for it can't tell them apart.
     owners: dict[str, set[int]] = {}
@@ -87,7 +93,8 @@ def cty_disagreements() -> dict[str, tuple[int, list[int]]]:
     for r in facts():
         for c in r["covers"]:
             m = re.match(r"[A-Z0-9]+", c["prefix"] or "")
-            if not m or c["dxcc"] is None or m.group() not in prefixes or len(owners[m.group()]) > 1:
+            if (not m or c["dxcc"] is None or m.group() not in prefixes
+                    or len(owners[m.group()]) > 1):
                 continue
             z = prefixes[m.group()]
             if z not in zones_by_entity()[c["dxcc"]]:
@@ -103,7 +110,8 @@ KNOWN_ADIF = {
 KNOWN_CTY = {
     # TI9 Cocos I.: AD1C gives 11; the chapter (and ARRL) give 12.
     "TI9.37": (11, [12]),
-    # Asiatic Russia: AD1C carries one default zone per prefix; the chapter splits UA0, UA8T and
+    # Asiatic Russia: AD1C carries one default zone per prefix; the chapter splits
+    # UA0, UA8T and
     # "Uaà" (its typo for UA0) by lines of latitude and longitude.
     "UA0.15": (30, [21, 22, 23, 24, 25, 26, 31, 32, 33, 34, 35, 75]),
     "U.15": (29, [21, 22, 23, 24, 25, 26, 31, 32, 33, 34, 35, 75]),
@@ -125,12 +133,14 @@ def test_ad1c_country_file():
 
 @pytest.mark.live
 def test_arrl_dxcc_list():
-    """ARRL's current DXCC list gives each entity's zones; every zone it gives should be one the
+    """ARRL's current DXCC list gives each entity's zones; every zone it gives
+    should be one the
     owner gives that entity. Fetched live (ARRL's file is not shipped)."""
     url = "https://www.arrl.org/files/file/DXCC/2020%20Current_Deleted.txt"
     with urllib.request.urlopen(url, timeout=30) as resp:  # https, ARRL
         text = resp.read().decode("latin-1")
-    row = re.compile(r"^\s+\S+\s+.+?\s{2,}(AF|AN|AS|EU|NA|OC|SA)[, A-Z]*\s+(\S+)\s+(\S+)\s+(\d{3})\s*$")
+    row = re.compile(
+        r"^\s+\S+\s+.+?\s{2,}(AF|AN|AS|EU|NA|OC|SA)[, A-Z]*\s+(\S+)\s+(\S+)\s+(\d{3})\s*$")
     out = {}
     for line in text.split("DELETED ENTITIES")[0].splitlines():
         m = row.match(line)
