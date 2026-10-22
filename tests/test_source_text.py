@@ -1,5 +1,5 @@
-"""Pre-release: our facts are still in the IARU's chapter 9.8 (run with --live; CI runs it on the
-release PR).
+"""Pre-release: our facts are still in the IARU's chapter 9.8 (run with --live;
+CI runs it on the release PR).
 
 Not a byte comparison: every prefix and boundary wording in our facts must still be in the
 chapter's text. Whitespace is ignored (the PDF's text layer spaces superscripts, e.g. "50 E").

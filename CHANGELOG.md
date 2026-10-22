@@ -56,6 +56,32 @@ answer that carries data, including a "not found", which is where attribution be
   and `outputSchema` was dumped through a real `fastmcp.Client` before and after: six tools, six
   `annotations: null` → the block, and not one other byte different.
 
+### Lint (#15, qso-graph-devel#70)
+
+- **`E501` is adopted.** It reported **37 lines** and not one was a defect — which is the finding,
+  not an argument against enforcing it. The rules that do find defects (`F`, `I`, mypy strict) went
+  in first, which is why this waited.
+- **The deferral note's prediction was wrong, and this repo is where it can be tested.** The note in
+  this `pyproject.toml` said some lines "will not be reflowed at all", because they name ADIF's
+  field `Primary_Administrative_Subdivision` exactly and the owner of a list is its authority.
+  Measured: **four** lines name it, and all four reflow with the field name whole — bind the
+  subscript chain to a name first and
+  `subdivisions = pas["Adif"]["Enumerations"]["Primary_Administrative_Subdivision"]` is 83
+  characters. **Zero exemptions were needed**; there is no `# noqa: E501` in the repo. The same
+  prediction was tested on `cq-zones-mcp` and failed there too, so the exemption clause has now
+  been checked in both repos it was written about.
+- **Four tool descriptions change on the wire, in whitespace only.** `source_info`, `lookup`,
+  `codes_for` and `valid_on` had summary lines over 95 columns, and FastMCP publishes the docstring
+  as the description — so reflowing one reaches a client. Checked rather than assumed: with
+  whitespace normalised all four are identical, **no words changed**, and every `inputSchema`,
+  `outputSchema` and annotation block is byte-identical. Said here because the rest of this is
+  formatting and a reader is entitled to assume formatting changes nothing — in `netlogger-mcp` it
+  did not, where a reflowed `Args:` line changed two parameter descriptions.
+- The server's `instructions` string came out **byte-identical**: it is a run of adjacent literals,
+  so splitting it at word boundaries changes the source and not the value.
+- Falsified: a long line planted in `src/` and another in `tests/`, both caught; `pytest -q --live`
+  still 43 passed afterwards.
+
 ### Not applicable here
 
 - **No `certifi` work and no issue for it** (qso-graph-devel#73). Nothing in the package makes an
