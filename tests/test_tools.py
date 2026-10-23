@@ -4,11 +4,16 @@ from __future__ import annotations
 
 import asyncio
 
+import pytest
 from fastmcp import Client
+from fastmcp.exceptions import ToolError
 
 from itu_zones_mcp import server
 
-TOOLS = {"get_version_info", "itu_zones_source_info", "itu_zones_lookup", "itu_zones_search", "itu_zones_codes_for", "itu_zones_valid_on"}
+TOOLS = {
+    "get_version_info", "itu_zones_source_info", "itu_zones_lookup",
+    "itu_zones_search", "itu_zones_codes_for", "itu_zones_valid_on",
+}
 
 
 def call(name: str, args: dict | None = None) -> dict:
@@ -37,19 +42,28 @@ def test_source_info_credits_the_owner():
 
 
 def test_every_answer_names_its_source():
-    for name, args in (("itu_zones_lookup", {"code": "6"}), ("itu_zones_search", {"text": "Antarctica"}),
-                       ("itu_zones_codes_for", {"dxcc": 291}), ("itu_zones_valid_on", {"code": "6", "on_date": "2026-10-06"})):
+    for name, args in (
+        ("itu_zones_lookup", {"code": "6"}),
+        ("itu_zones_search", {"text": "Antarctica"}),
+        ("itu_zones_codes_for", {"dxcc": 291}),
+        ("itu_zones_valid_on", {"code": "6", "on_date": "2026-10-06"}),
+    ):
         r = call(name, args)
         assert "error" not in r, (name, r)
         assert r["source"]["owner"] and r["source"]["url"], name
 
 
-def test_bad_input_is_an_error():
-    assert "error" in call("itu_zones_lookup", {"code": "A B; DROP"})
-    assert "error" in call("itu_zones_search", {"text": "x" * 101})
-    assert "error" in call("itu_zones_codes_for", {"dxcc": 5000})
-    assert "error" in call("itu_zones_codes_for", {"dxcc": 1, "subdivision": "TOOLONG"})
-    assert "error" in call("itu_zones_valid_on", {"code": "6", "on_date": "06.10.2026"})
+def test_bad_input_is_a_flagged_error():
+    """Rejections are flagged now, not returned as successful results (#16)."""
+    for name, args in (
+        ("itu_zones_lookup", {"code": "A B; DROP"}),
+        ("itu_zones_search", {"text": "x" * 101}),
+        ("itu_zones_codes_for", {"dxcc": 5000}),
+        ("itu_zones_codes_for", {"dxcc": 1, "subdivision": "TOOLONG"}),
+        ("itu_zones_valid_on", {"code": "6", "on_date": "06.10.2026"}),
+    ):
+        with pytest.raises(ToolError):
+            call(name, args)
 
 
 def test_unknown_code_is_not_found():

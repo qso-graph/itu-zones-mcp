@@ -1,7 +1,8 @@
 """itu-zones-mcp: ITU zones, as the IARU publishes them (QG Reference).
 
-Read-only. The facts the tools answer from are in data/facts/, each citing where it appears
-in the owner's document, which is referenced by URL and SHA-256 (data/SOURCE.json), not shipped.
+Read-only. The facts the tools answer from are in data/facts/, each citing where
+it appears in the owner's document, which is referenced by URL and SHA-256
+(data/SOURCE.json), not shipped.
 """
 
 from __future__ import annotations
@@ -9,9 +10,10 @@ from __future__ import annotations
 import re
 import sys
 from datetime import date
-from typing import Any
+from typing import Any, NoReturn
 
 from fastmcp import FastMCP
+from fastmcp.exceptions import ToolError
 
 from . import __spec_version__, __version__, reference
 
@@ -21,14 +23,42 @@ mcp = FastMCP(
     "itu-zones-mcp",
     version=__version__,
     instructions=(
-        "ITU zones (1-90) as the IARU publishes them for amateur use (HF Managers Handbook, chapter 9.8): which zone covers which entity or state, in ADIF's own DXCC and subdivision codes. "
-        "Every answer names its source. Facts are the owner's; anything marked derived is ours. "
-        "Start with itu_zones_codes_for (an ADIF DXCC code, plus a subdivision such as AZ) or itu_zones_lookup (a zone number)."
+        "ITU zones (1-90) as the IARU publishes them for amateur use (HF Managers "
+        "Handbook, chapter 9.8): which zone covers which entity or state, in ADIF's "
+        "own DXCC and subdivision codes. "
+        "Every answer names its source. Facts are the owner's; anything marked "
+        "derived is ours. "
+        "Start with itu_zones_codes_for (an ADIF DXCC code, plus a subdivision such "
+        "as AZ) or itu_zones_lookup (a zone number)."
     ),
 )
 
 _CODE = re.compile(r"^[A-Za-z0-9]{1,12}$")
 _PAS = re.compile(r"^[A-Za-z0-9]{1,4}$")
+
+
+# MCP 2026-07-28 tool annotations. The defaults are pessimistic — a tool that
+# declares nothing is advertised as destructive, non-idempotent and open-world, and
+# the specification tells a client it may keep a human in the loop for that.
+#
+# All six tools share one block, and that is honest rather than lazy: every one
+# answers from the ITU-zone reference data bundled in the wheel. Nothing in this
+# package opens a socket and nothing writes, so the four hints are the same for all
+# six and the reason is the same too. tests/test_mcp_conformance.py asserts that
+# premise rather than the convenience, because one shared block is also exactly what
+# a careless copy produces.
+_ANSWERS_FROM_CARRIED_DATA = {
+    "readOnlyHint": True,
+    "destructiveHint": False,
+    # Stronger than in most of this fleet: the data ships in the wheel, so the same
+    # call returns the same answer until the package is upgraded. Servers that read a
+    # live service are idempotent only in the sense the specification means — the tool
+    # changes nothing — while their answers still move. Here neither moves.
+    "idempotentHint": True,
+    # Nothing leaves the machine. The IARU handbook is referenced by URL and SHA-256,
+    # not fetched at runtime; the facts taken from it ship as data.
+    "openWorldHint": False,
+}
 
 
 def _credit() -> dict[str, Any]:
@@ -37,8 +67,20 @@ def _credit() -> dict[str, Any]:
             "url": s["url"]}
 
 
-def _err(msg: str) -> dict[str, Any]:
-    return {"error": msg, "source": _credit()}
+def _err(msg: str) -> NoReturn:
+    """Reject bad input the way the protocol specifies.
+
+    This returned ``{"error": msg, "source": _credit()}`` as a *successful* result, so
+    a client could not tell a rejection from an answer. The specification says of
+    ``CallToolResult.isError`` that otherwise "the LLM would not be able to see that an
+    error occurred and self-correct".
+
+    The IARU credit is not carried into the raised error, and nothing is lost by that:
+    every successful answer builds its own ``source`` from ``_credit()``, which was
+    checked before this changed. Attribution belongs on the data, and a rejected input
+    returns no data.
+    """
+    raise ToolError(msg)
 
 
 def _version_info_payload() -> dict[str, Any]:
@@ -46,7 +88,7 @@ def _version_info_payload() -> dict[str, Any]:
             "spec_version": __spec_version__}
 
 
-@mcp.tool()
+@mcp.tool(annotations=_ANSWERS_FROM_CARRIED_DATA)
 def get_version_info() -> dict[str, Any]:
     """Get itu-zones-mcp's version and the edition of the IARU's list it serves.
 
@@ -56,9 +98,10 @@ def get_version_info() -> dict[str, Any]:
     return _version_info_payload()
 
 
-@mcp.tool(name=f"{P}_source_info")
+@mcp.tool(name=f"{P}_source_info", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def source_info() -> dict[str, Any]:
-    """Who owns this list, which edition is served, its terms, and the owner's files' URLs and SHA-256s."""
+    """Who owns this list, which edition is served, its terms, and the owner's
+    files' URLs and SHA-256s."""
     s = reference.source()
     return {
         "owner": s["owner"],
@@ -68,22 +111,25 @@ def source_info() -> dict[str, Any]:
         "authority": s.get("authority"),
         "terms": s["terms"],
         "retrieved": {n: m["retrieved"] for n, m in s["published"].items()},
-        "published_files": {n: {"url": m["url"], "sha256": m["sha256"]} for n, m in s["published"].items()},
+        "published_files": {n: {"url": m["url"], "sha256": m["sha256"]}
+                            for n, m in s["published"].items()},
         "lists": {n: len(ol.records) for n, ol in reference.lists().items()},
         "derived_note": s["derived_note"],
     }
 
 
-@mcp.tool(name=f"{P}_lookup")
+@mcp.tool(name=f"{P}_lookup", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def lookup(code: str) -> dict[str, Any]:
-    """One ITU zone: every prefix, subdivision and boundary the IARU lists for it, with ADIF codes and the citation. Zones 76-77 and 79-89 have no entry in this edition.
+    """One ITU zone: every prefix, subdivision and boundary the IARU lists for it,
+    with ADIF codes and the citation. Zones 76-77 and 79-89 have no entry in this
+    edition.
 
     Args:
         code: An ITU zone number, 1 to 90.
     """
     code = (code or "").strip()
     if not _CODE.match(code):
-        return _err("code must be 1 to 12 letters or digits")
+        _err("code must be 1 to 12 letters or digits")
     code = code.lstrip("0") or code if code.isdigit() else code
     recs = reference.lookup(code)
     if not recs:
@@ -91,7 +137,7 @@ def lookup(code: str) -> dict[str, Any]:
     return {"code": code, "found": True, "records": recs, "source": _credit()}
 
 
-@mcp.tool(name=f"{P}_search")
+@mcp.tool(name=f"{P}_search", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def search(text: str, limit: int = 50) -> dict[str, Any]:
     """Find codes whose name, prefixes, area wording or attributes contain every word of text.
 
@@ -101,31 +147,36 @@ def search(text: str, limit: int = 50) -> dict[str, Any]:
     """
     text = (text or "").strip()
     if not 1 <= len(text) <= 100:
-        return _err("text must be 1 to 100 characters")
+        _err("text must be 1 to 100 characters")
     limit = max(1, min(int(limit), 200))
     hits, total = reference.search(text, limit=limit)
-    return {"text": text, "total": total, "returned": len(hits), "records": hits, "source": _credit()}
+    return {"text": text, "total": total, "returned": len(hits), "records": hits,
+            "source": _credit()}
 
 
-@mcp.tool(name=f"{P}_codes_for")
+@mcp.tool(name=f"{P}_codes_for", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def codes_for(dxcc: int, subdivision: str | None = None) -> dict[str, Any]:
-    """Which ITU zones cover an ADIF DXCC entity, or one of its subdivisions. Where the IARU splits an entity by a line (W7 states at 110W), each zone is returned with the IARU's boundary wording.
+    """Which ITU zones cover an ADIF DXCC entity, or one of its subdivisions. Where
+    the IARU splits an entity by a line (W7 states at 110W), each zone is returned
+    with the IARU's boundary wording.
 
     Args:
         dxcc: ADIF DXCC entity code (e.g. 291 for the United States, 1 for Canada).
         subdivision: ADIF Primary_Administrative_Subdivision code, e.g. "QC" or "AZ".
     """
     if not isinstance(dxcc, int) or not 0 <= dxcc <= 999:
-        return _err("dxcc must be an ADIF DXCC entity code, 0 to 999")
+        _err("dxcc must be an ADIF DXCC entity code, 0 to 999")
     if subdivision is not None and not _PAS.match(subdivision.strip()):
-        return _err("subdivision must be an ADIF subdivision code, 1 to 4 letters or digits")
+        _err("subdivision must be an ADIF subdivision code, 1 to 4 letters or digits")
     hits = reference.codes_for(dxcc, subdivision)
     return {"dxcc": dxcc, "subdivision": subdivision, "codes": hits, "source": _credit()}
 
 
-@mcp.tool(name=f"{P}_valid_on")
+@mcp.tool(name=f"{P}_valid_on", annotations=_ANSWERS_FROM_CARRIED_DATA)
 def valid_on(code: str, on_date: str) -> dict[str, Any]:
-    """Whether an ITU zone was valid on a date. The chapter gives no validity window, so every zone it lists is valid; the tool exists so every owner-list server answers the same questions.
+    """Whether an ITU zone was valid on a date. The chapter gives no validity
+    window, so every zone it lists is valid; the tool exists so every owner-list
+    server answers the same questions.
 
     Args:
         code: An ITU zone number, 1 to 90.
@@ -133,16 +184,17 @@ def valid_on(code: str, on_date: str) -> dict[str, Any]:
     """
     code = (code or "").strip()
     if not _CODE.match(code):
-        return _err("code must be 1 to 12 letters or digits")
+        _err("code must be 1 to 12 letters or digits")
     code = code.lstrip("0") or code if code.isdigit() else code
     try:
         d = date.fromisoformat((on_date or "").strip())
     except ValueError:
-        return _err("on_date must be YYYY-MM-DD")
+        _err("on_date must be YYYY-MM-DD")
     recs = reference.valid_on(code, d)
     if not recs:
         return {"code": code, "found": False, "source": _credit()}
-    return {"code": code, "on_date": d.isoformat(), "found": True, "records": recs, "source": _credit()}
+    return {"code": code, "on_date": d.isoformat(), "found": True, "records": recs,
+            "source": _credit()}
 
 
 def main() -> None:

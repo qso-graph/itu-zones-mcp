@@ -1,4 +1,5 @@
-"""ITU zones as the IARU publishes them for amateur use, in ADIF's DXCC and subdivision codes."""
+"""ITU zones as the IARU publishes them for amateur use, in ADIF's DXCC and
+subdivision codes."""
 
 from __future__ import annotations
 
