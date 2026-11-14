@@ -64,7 +64,7 @@ absent.
 
 Tested in `tests/test_crosscheck.py` (AD1C and ARRL fetched live); a new disagreement fails the tests.
 
-- **ADIF 3.1.7's subdivision zones:** ADIF gives Minnesota (MN) 07,08; the chapter lists MN in zone 7
+- **ADIF 3.1.8's subdivision zones:** ADIF gives Minnesota (MN) 07,08; the chapter lists MN in zone 7
   only. ADIF gives DC zone 08; the chapter doesn't list DC.
 - **ARRL's DXCC list** gives fewer zones than the chapter for Guatemala (12 vs 11), Bolivia, Easter I.,
   Franz Josef Land, Svalbard, Micronesia, the Cooks, Italy and Yemen.
