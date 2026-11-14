@@ -8,7 +8,7 @@
   "url": "https://www.iaru-r1.org/wp-content/uploads/2019/12/IARURegion1HFManagerHandbook8.2.1.pdf",
   "authority": "IARU Region 1 recommendation REC/99/LH/C4.2 (Lillehammer 1999): 'when the ITU Zones are used for Amateur Radio purposes, the definition of the border-lines shall be included in the HF Managers Handbook'. Drafted by G3HTA from the ITU's CIRAF broadcasting zones; approved by all three IARU regions (1999-2001).",
   "terms": "The handbook states no reproduction terms. This package does not redistribute it: it links to it, records its SHA-256, and holds the facts from chapter 9.8, credited to IARU Region 1.",
-  "adif_version": "3.1.7",
+  "adif_version": "3.1.8",
   "published": {
     "IARURegion1HFManagerHandbook8.2.1.pdf": {
       "url": "https://www.iaru-r1.org/wp-content/uploads/2019/12/IARURegion1HFManagerHandbook8.2.1.pdf",
